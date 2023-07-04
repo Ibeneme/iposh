@@ -124,7 +124,7 @@ const Bag = () => {
                     marginTop: "0.3em",
                     border: "1px solid gray",
                     padding: "0.3em 01em",
-                    height:'50px',
+                   height:'36px',
                   }}
                 >
                   <BiMinus />
@@ -215,7 +215,7 @@ const Bag = () => {
                     marginTop: "0.3em",
                     border: "1px solid gray",
                     padding: "0.3em 01em",
-                    height:'50px',
+                   height:'36px',
                   }}
                 >
                   <BiMinus />
@@ -306,7 +306,7 @@ const Bag = () => {
                     marginTop: "0.3em",
                     border: "1px solid gray",
                     padding: "0.3em 01em",
-                    height:'50px',
+                    height:'36px',
                   }}
                 >
                   <BiMinus />
