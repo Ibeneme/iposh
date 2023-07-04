@@ -352,6 +352,355 @@ const Saved = () => {
                 display: "flex",
                 gap: "0.5em",
                 width: "100%",
+                borderTop:'1px solid #d9d9d975',
+                paddingTop:'1.4em'
+              }}
+            >
+              <img
+                width="90px"
+                height="90px"
+                alt="alt"
+                src="https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_12_o4s6rm.png"
+              />
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  width: "100%",
+                  justifyContent: "space-between",
+                }}
+              >
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                  }}
+                >
+                  <div>
+                    <h3
+                      style={{
+                        fontSize: "16px",
+                      }}
+                    >
+                      Bone Straight
+                    </h3>
+                    <p
+                      style={{
+                        fontSize: "14px",
+                        color: "gray",
+                        marginTop: "0.2em",
+                      }}
+                    >
+                      24inch || Black Color{" "}
+                    </p>
+                  </div>
+                  <RiDeleteBin6Line
+                    style={{
+                      color: "gray",
+                    }}
+                  />
+                </div>
+
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    width: "100%",
+                  }}
+                >
+                  {/* <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      alignItems: "center",
+                      width: "fit-content",
+                      gap: "1em",
+                      marginTop: "0.3em",
+                      border: "1px solid gray",
+                      padding: "0.3em 0.5em",
+                    }}
+                  >
+                    <BiMinus />
+                    <p>1</p>
+                    <MdAdd />
+                  </div> */}
+
+                  <div className="product-description-second-div-p">
+                    <span>&#8358;</span>
+                    1000
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              style={{
+                marginTop: "2em",
+                display: "flex",
+                gap: "0.5em",
+                width: "100%",
+                borderTop:'1px solid #d9d9d975',
+                paddingTop:'1.4em'
+              }}
+            >
+              <img
+                width="90px"
+                height="90px"
+                alt="alt"
+                src="https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_12_o4s6rm.png"
+              />
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  width: "100%",
+                  justifyContent: "space-between",
+                }}
+              >
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                  }}
+                >
+                  <div>
+                    <h3
+                      style={{
+                        fontSize: "16px",
+                      }}
+                    >
+                      Bone Straight
+                    </h3>
+                    <p
+                      style={{
+                        fontSize: "14px",
+                        color: "gray",
+                        marginTop: "0.2em",
+                      }}
+                    >
+                      24inch || Black Color{" "}
+                    </p>
+                  </div>
+                  <RiDeleteBin6Line
+                    style={{
+                      color: "gray",
+                    }}
+                  />
+                </div>
+
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    width: "100%",
+                  }}
+                >
+                  {/* <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      alignItems: "center",
+                      width: "fit-content",
+                      gap: "1em",
+                      marginTop: "0.3em",
+                      border: "1px solid gray",
+                      padding: "0.3em 0.5em",
+                    }}
+                  >
+                    <BiMinus />
+                    <p>1</p>
+                    <MdAdd />
+                  </div> */}
+
+                  <div className="product-description-second-div-p">
+                    <span>&#8358;</span>
+                    1000
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              style={{
+                marginTop: "2em",
+                display: "flex",
+                gap: "0.5em",
+                width: "100%",
+                borderTop:'1px solid #d9d9d975',
+                paddingTop:'1.4em'
+              }}
+            >
+              <img
+                width="90px"
+                height="90px"
+                alt="alt"
+                src="https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_12_o4s6rm.png"
+              />
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  width: "100%",
+                  justifyContent: "space-between",
+                }}
+              >
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                  }}
+                >
+                  <div>
+                    <h3
+                      style={{
+                        fontSize: "16px",
+                      }}
+                    >
+                      Bone Straight
+                    </h3>
+                    <p
+                      style={{
+                        fontSize: "14px",
+                        color: "gray",
+                        marginTop: "0.2em",
+                      }}
+                    >
+                      24inch || Black Color{" "}
+                    </p>
+                  </div>
+                  <RiDeleteBin6Line
+                    style={{
+                      color: "gray",
+                    }}
+                  />
+                </div>
+
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    width: "100%",
+                  }}
+                >
+                  {/* <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      alignItems: "center",
+                      width: "fit-content",
+                      gap: "1em",
+                      marginTop: "0.3em",
+                      border: "1px solid gray",
+                      padding: "0.3em 0.5em",
+                    }}
+                  >
+                    <BiMinus />
+                    <p>1</p>
+                    <MdAdd />
+                  </div> */}
+
+                  <div className="product-description-second-div-p">
+                    <span>&#8358;</span>
+                    1000
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              style={{
+                marginTop: "2em",
+                display: "flex",
+                gap: "0.5em",
+                width: "100%",
+                borderTop:'1px solid #d9d9d975',
+                paddingTop:'1.4em'
+              }}
+            >
+              <img
+                width="90px"
+                height="90px"
+                alt="alt"
+                src="https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_12_o4s6rm.png"
+              />
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  width: "100%",
+                  justifyContent: "space-between",
+                }}
+              >
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                  }}
+                >
+                  <div>
+                    <h3
+                      style={{
+                        fontSize: "16px",
+                      }}
+                    >
+                      Bone Straight
+                    </h3>
+                    <p
+                      style={{
+                        fontSize: "14px",
+                        color: "gray",
+                        marginTop: "0.2em",
+                      }}
+                    >
+                      24inch || Black Color{" "}
+                    </p>
+                  </div>
+                  <RiDeleteBin6Line
+                    style={{
+                      color: "gray",
+                    }}
+                  />
+                </div>
+
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    width: "100%",
+                  }}
+                >
+                  {/* <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      alignItems: "center",
+                      width: "fit-content",
+                      gap: "1em",
+                      marginTop: "0.3em",
+                      border: "1px solid gray",
+                      padding: "0.3em 0.5em",
+                    }}
+                  >
+                    <BiMinus />
+                    <p>1</p>
+                    <MdAdd />
+                  </div> */}
+
+                  <div className="product-description-second-div-p">
+                    <span>&#8358;</span>
+                    1000
+                  </div>
+                </div>
+              </div>
+            </div>  <div
+              style={{
+                marginTop: "2em",
+                display: "flex",
+                gap: "0.5em",
+                width: "100%",
+                borderTop:'1px solid #d9d9d975',
+                paddingTop:'1.4em'
               }}
             >
               <img

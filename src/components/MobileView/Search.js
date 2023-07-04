@@ -21,6 +21,7 @@ const SearchInput = () => {
         <input
           style={{
             width: "100%",
+            height: '50px',
             padding: "0.8em 2.9em",
             paddingLeft: "2.5em",
             borderRadius: "4px",
