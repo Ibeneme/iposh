@@ -1,0 +1,31 @@
+.card {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: black
+    /* Add other card styling properties */
+  }
+  
+  .image-container {
+    flex: 1;
+    /* Add image container styling properties */
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text-container {
+    flex: 1;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    /* Add other text container styling properties */
+  }
+  
+  .text-container.show {
+    opacity: 1;
+  }
+  
+  /* Add other card styling properties as needed */
+  
