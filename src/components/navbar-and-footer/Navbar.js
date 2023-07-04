@@ -37,6 +37,7 @@ function Navbar() {
               style={{
                 fontSize: "0.8em",
                 marginTop: "0.4em",
+                marginLeft:'-1.2em'
               }}
             />
           </button>
