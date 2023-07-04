@@ -10,7 +10,19 @@ import { useSwipeable } from "react-swipeable";
 
 const Bag = () => {
   const [showDeleteOption, setShowDeleteOption] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
+  const handleModalOpen = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleModalClose = () => {
+    setIsModalOpen(false);
+  };
+
+  const handleClearBag = () => {
+    handleModalClose();
+  };
   const handleSwipeLeft = () => {
     setShowDeleteOption(true);
   };
@@ -43,10 +55,79 @@ const Bag = () => {
                 border: "1px solid gray",
                 padding: "0.8em 1.2em",
               }}
+              onClick={handleModalOpen}
             >
-              {" "}
               Clear Bag
             </p>
+            {isModalOpen && (
+              <div
+                style={{
+                  position: "fixed",
+                  top: 0,
+                  left: 0,
+                  width: "100%",
+                  height: "100%",
+                  backgroundColor: "rgba(0, 0, 0, 0.5)",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  zIndex: "99999",
+                }}
+              >
+                <div
+                  style={{
+                    backgroundColor: "white",
+                    padding: "2em",
+                    borderRadius: "8px",
+                  }}
+                >
+                  <h3
+                    style={{
+                      textAlign: "center",
+                    }}
+                  >
+                    Confirm you want to Clear your bag?
+                  </h3>
+                  <p
+                    style={{
+                      textAlign: "center",
+                      fontSize:'0.9em',
+                      marginTop:'0.3em',
+                      color:'gray'
+                    }}
+                  >
+                    Are you sure you want to clear your bag?
+                  </p>
+                  <div
+                    style={{
+                      marginTop: "3em",
+                      display: "flex",
+                      gap:'0.3em'
+                    }}
+                  >
+                    <button
+                      style={{
+                        width: "100%",
+                        height: "50px",
+                        border: "1px solid black",
+                        backgroundColor: "white",
+                        color: "black",
+                      }}
+                      onClick={handleClearBag}
+                    >
+                      No, Cancel
+                    </button>
+                    <button  style={{
+                        width: "100%",
+                        height: "50px",
+                        border: "none",
+                        backgroundColor: "#fc2c9c",
+                        color: "white",
+                      }} onClick={handleModalClose}>Yes, Clear Bag</button>
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
 
           <div
@@ -55,8 +136,8 @@ const Bag = () => {
               display: "flex",
               gap: "0.5em",
               width: "100%",
-               borderBottom:'1px solid #d9d9d975',
-                paddingBottom:'1.4em',
+              borderBottom: "1px solid #d9d9d975",
+              paddingBottom: "1.4em",
               ...swipeHandlers,
             }}
           >
@@ -124,7 +205,7 @@ const Bag = () => {
                     marginTop: "0.3em",
                     border: "1px solid gray",
                     padding: "0.3em 01em",
-                   height:'36px',
+                    height: "36px",
                   }}
                 >
                   <BiMinus />
@@ -146,8 +227,8 @@ const Bag = () => {
               display: "flex",
               gap: "0.5em",
               width: "100%",
-               borderBottom:'1px solid #d9d9d975',
-                paddingBottom:'1.4em',
+              borderBottom: "1px solid #d9d9d975",
+              paddingBottom: "1.4em",
               ...swipeHandlers,
             }}
           >
@@ -215,7 +296,7 @@ const Bag = () => {
                     marginTop: "0.3em",
                     border: "1px solid gray",
                     padding: "0.3em 01em",
-                   height:'36px',
+                    height: "36px",
                   }}
                 >
                   <BiMinus />
@@ -237,8 +318,8 @@ const Bag = () => {
               display: "flex",
               gap: "0.5em",
               width: "100%",
-               borderBottom:'1px solid #d9d9d975',
-                paddingBottom:'1.4em',
+              borderBottom: "1px solid #d9d9d975",
+              paddingBottom: "1.4em",
               ...swipeHandlers,
             }}
           >
@@ -306,7 +387,7 @@ const Bag = () => {
                     marginTop: "0.3em",
                     border: "1px solid gray",
                     padding: "0.3em 01em",
-                    height:'36px',
+                    height: "36px",
                   }}
                 >
                   <BiMinus />

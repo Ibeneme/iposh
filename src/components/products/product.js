@@ -38,7 +38,8 @@ const ProductsHome = () => {
             }}
           >
             {productsData.map((product) => (
-              <div key={product.id} style={{ position: "relative" }}>
+              <div key={product.id} style={{ position: "relative" }}
+              onClick={()=>navigate('/category')}>
                 <img
                   className="image-wigs"
                   src={product.image}

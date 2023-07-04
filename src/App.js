@@ -1,4 +1,3 @@
-
 import { Route, Routes, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import ProductsHome from "./components/products/product";
@@ -15,7 +14,8 @@ import SignIn from "./components/auth/SignIn";
 import SignUp from "./components/auth/SignUp";
 import Verify from "./components/auth/Verify";
 import Forgot from "./components/auth/Forgot";
-
+import ProfileEdit from "./components/Profile/edit";
+import Category from "./components/products/Category";
 
 const ScrollToTop = () => {
   const navigate = useNavigate();
@@ -27,11 +27,7 @@ const ScrollToTop = () => {
   return null;
 };
 
-
-
 function App() {
-  
-
   return (
     <>
       <ScrollToTop />
@@ -47,12 +43,12 @@ function App() {
         <Route path="/delivery" element={<Delivery />} />
         <Route path="/pending" element={<Pending />} />
 
+        <Route path="/edit" element={<ProfileEdit />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/verify" element={<Verify />} />
         <Route path="/forgot" element={<Forgot />} />
-
-
+        <Route path="/category" element={<Category />} />
       </Routes>
       <Footer />
     </>
