@@ -1,7 +1,8 @@
 .div-profile-div {
   display: flex;
   justify-content: center;
-  padding: 220px 0;
+  padding-top: 220px;
+  padding-bottom: 120px;
   background-color: #f4f4f4;
 }
 .div-profile-div-first {
@@ -9,50 +10,50 @@
   width: 90%;
 }
 .div-profile-div-second {
-    display: flex;
-    flex-direction: column;
-    padding: 2em 2em;
-    justify-content: flex-start;
-    align-items: flex-start;
-    background-color: #fff;
-    margin: 0 16px;
-    width:100%
-  }
+  display: flex;
+  flex-direction: column;
+  padding: 2em 2em;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #fff;
+  margin: 0 16px;
+  width: 100%;
+}
 
-  .hover-profile:hover{
-    background-color: #d9d9d9;
-    padding: 0 -2em ;
-  }
+.hover-profile:hover {
+  background-color: #d9d9d9;
+  padding: 0 -2em;
+}
 
-  .active-profile{
-    background-color: #FC2C9C;
-    color:white
-  }
-  .bone{
-    gap:1em
-  }
-  .staight{
-    font-size: 1em;
-  }
-  .staight-p{
-    font-size: 0.8em;
-  }
-@media (max-width: 1400px) {
+.active-profile {
+  background-color: #fc2c9c;
+  color: white;
+}
+.bone {
+  gap: 1em;
+}
+.staight {
+  font-size: 1em;
+}
+.staight-p {
+  font-size: 0.8em;
+}
+
+@media (max-width: 1119px) {
   .div-profile-div {
     display: flex;
     justify-content: center;
-    padding: 190px 0;
-    background-color: #f4f4f4;
+    padding-top: 2em;
+    width:100%;
+    background-color: #f4f4f4;;
   }
-  
-}
-
-@media (max-width: 719px) {
- 
-
+  .div-profile-div-first {
+    display: flex;
+    width: 100%;
+  }
 }
 @media (max-width: 990px) {
-    .div-profile-div-second {
-        display: none;
-      }
+  .div-profile-div-second {
+    display: none;
   }
+}

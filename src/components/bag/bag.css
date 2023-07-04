@@ -1,5 +1,8 @@
 .cart-div{
-    padding:6em;
+    padding-top:6em;
+    padding-right:6em;
+    padding-left:6em;
+    padding-bottom:12em;
     display: flex;
     justify-content: space-between;
     gap:1em;
@@ -11,6 +14,9 @@
     width:100%;
     background-color: white;
     padding: 1.2em;
+  
+}
+.first-div-div{
     margin-top: 5em;
 }
 .cart-second-div{
@@ -38,13 +44,14 @@
         flex-direction: column;
         background-color: #fff;
         width:100%;
-        padding: 0em
+        padding: 0em;
+        margin-top: 2em;
       
     }
     .cart-first-div{
         width:100%;
         background-color: white;
-        margin-top: 5em;
+        margin-top: 6em;
     }
     .cart-second-div{
         width:100%;

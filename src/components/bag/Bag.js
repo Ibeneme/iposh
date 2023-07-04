@@ -29,7 +29,7 @@ const Bag = () => {
     <div className="div-cart-div">
       <Navbar />
       <div className="cart-div">
-        <div className="cart-first-div">
+        <div className="cart-first-div first-div-div">
           <div
             style={{
               display: "flex",
@@ -166,7 +166,7 @@ const Bag = () => {
             <button
               style={{
                 width: "100%",
-                height: "3.2em",
+                height: "50px",
                 backgroundColor: "#FC2C9C",
                 color: "white",
                 border: "none",

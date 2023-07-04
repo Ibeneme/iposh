@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "../navbar-and-footer/Navbar";
 
-
 const Checkout = () => {
   const [selectedDeliveryMethod, setSelectedDeliveryMethod] = useState("");
 
@@ -40,7 +39,7 @@ const Checkout = () => {
               <label
                 style={{
                   display: "flex",
-                  alignItems: "baseline",
+                  alignItems: "center",
                   justifyContent: "space-between",
                   gap: "0.6em",
                 }}
@@ -74,7 +73,7 @@ const Checkout = () => {
               <label
                 style={{
                   display: "flex",
-                  alignItems: "baseline",
+                  alignItems: "center",
                   justifyContent: "space-between",
                   gap: "0.6em",
                 }}
@@ -116,7 +115,7 @@ const Checkout = () => {
             <input
               style={{
                 width: "100%",
-                height: "3.2em",
+                height: '50px',
                 padding: "1em",
               }}
               placeholder="Enter your house Address"
@@ -124,7 +123,7 @@ const Checkout = () => {
             <input
               style={{
                 width: "100%",
-                height: "3.2em",
+                 height: '50px',
                 padding: "1em",
               }}
               placeholder="Enter your street number"
@@ -132,7 +131,7 @@ const Checkout = () => {
             <input
               style={{
                 width: "100%",
-                height: "3.2em",
+                 height: '50px',
                 padding: "1em",
               }}
               placeholder="Enter your city of residence"
@@ -140,7 +139,7 @@ const Checkout = () => {
             <input
               style={{
                 width: "100%",
-                height: "3.2em",
+                 height: '50px',
                 padding: "1em",
               }}
               placeholder="--Select your LGA"
@@ -148,7 +147,7 @@ const Checkout = () => {
             <input
               style={{
                 width: "100%",
-                height: "3.2em",
+                 height: '50px',
                 padding: "1em",
               }}
               placeholder="--Select your Land Mark"
@@ -156,7 +155,7 @@ const Checkout = () => {
             <input
               style={{
                 width: "100%",
-                height: "3.2em",
+                 height: '50px',
                 padding: "1em",
               }}
               placeholder="--Select your State"
@@ -173,7 +172,7 @@ const Checkout = () => {
               <button
                 style={{
                   width: "fit-content",
-                  height: "3em",
+                  height: "50px",
                   padding: "0 2em",
                   backgroundColor: "black",
                   color: "white",
@@ -213,7 +212,7 @@ const Checkout = () => {
                 <label
                   style={{
                     display: "flex",
-                    alignItems: "baseline",
+                    alignItems: "center",
                     justifyContent: "space-between",
                     gap: "0.6em",
                   }}
@@ -247,7 +246,7 @@ const Checkout = () => {
                 <label
                   style={{
                     display: "flex",
-                    alignItems: "baseline",
+                    alignItems: "center",
                     justifyContent: "space-between",
                     gap: "0.6em",
                   }}
@@ -285,6 +284,7 @@ const Checkout = () => {
                   justifyContent: "space-between",
                   alignItems: "center",
                   marginTop: "2em",
+                  color: "gray",
                 }}
               >
                 <p>Total Price</p>
@@ -310,6 +310,7 @@ const Checkout = () => {
                     justifyContent: "space-between",
                     alignItems: "center",
                     marginTop: "1em",
+                    color: "gray",
                   }}
                 >
                   <p>Delivery Price</p>
@@ -341,7 +342,7 @@ const Checkout = () => {
                   <button
                     style={{
                       width: "100%",
-                      height: "3.2em",
+                      height: "50px",
                       backgroundColor: "#FC2C9C",
                       color: "white",
                       border: "none",
@@ -355,7 +356,6 @@ const Checkout = () => {
           </div>
         </div>
       </div>{" "}
- 
     </div>
   );
 };
