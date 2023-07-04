@@ -79,9 +79,18 @@ const ProductDescription = () => {
           </div>
         </div>
         <div className="product-description-second-div">
-          <div>
-            <h2>{product.title}</h2>{" "}
-            <p className="product-description-second-div-p">
+          <div style={{
+            display:'flex',
+            justifyContent:'space-between',
+            alignItems:'baseline'
+          }}>
+            <h2  style={{
+                fontSize:"01.03em"
+            }}>{product.title}</h2>{" "}
+            <p className="product-description-second-div-p"
+            style={{
+                fontSize:"1.4em"
+            }}>
               Price: <span>&#8358;</span>
               {product.price}
             </p>

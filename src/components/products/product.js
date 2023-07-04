@@ -112,10 +112,6 @@ const ProductsHome = () => {
               <img src={product.image[0]} alt={product.title} />
               <p>{product.title}</p>
 
-              {product.colors && product.colors.length > 0 && (
-                <p>Colors: {product.colors.join(", ")}</p>
-              )}
-              {console.log(product)}
               <h3>Price: ${product.price}</h3>
               <button
                 style={{
@@ -126,6 +122,7 @@ const ProductsHome = () => {
                   borderRadius: "6px",
                   marginTop: "1em",
                   marginBottom: "2em",
+                  color:'black'
                 }}
               >
                 Add to Cart

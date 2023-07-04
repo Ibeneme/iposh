@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { HiHome } from "react-icons/hi2";
 import { BiSolidUser } from "react-icons/bi";
-import { RiFileList3Fill } from "react-icons/ri";
+
 import { BsFillHandbagFill } from "react-icons/bs";
 import { MdFavorite } from "react-icons/md";
 import "./styles/Navbar.css";
@@ -44,15 +44,7 @@ const BottomTab = () => {
         <BsFillHandbagFill className="bottomtab-icon" />
         <p className="bottomtab-text">Bag</p>
       </NavLink>
-      <NavLink
-        to="/order"
-        className="bottomtab-link"
-        activeClassName="active"
-        onClick={() => handleTabClick("/order")}
-      >
-        <RiFileList3Fill className="bottomtab-icon" />
-        <p className="bottomtab-text">Orders</p>
-      </NavLink>
+    
       <NavLink
         to="/profile"
         className="bottomtab-link"
