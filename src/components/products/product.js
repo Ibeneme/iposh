@@ -139,7 +139,8 @@ const ProductsHome = () => {
             <button
               style={{
                 width: "fit-content",
-                padding: "1em 2em",
+                height:'50px',
+                padding:' 0 2em',
                 marginTop: "1em",
                 backgroundColor: "#FC2C9C",
                 borderRadius: "6px",
