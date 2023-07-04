@@ -169,7 +169,7 @@ nav {
   background-color: white;
   color: gray;
   width: 100%;
-  padding: 0 12px;
+  padding: 0 2px;
 }
 
 .bottomtab-link {
@@ -180,7 +180,9 @@ nav {
   flex-direction: column;
   gap: 4px;
 }
-
+.bottomtab-text{
+    font-size: 0.89em;
+}
 .bottomtab-link.active {
   color: #fc2c9c;
 }
