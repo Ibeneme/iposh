@@ -56,4 +56,10 @@
   .div-profile-div-second {
     display: none;
   }
+  .profile-account{
+    margin-top: 90px;
+  }
+  .profile-account>h2{
+    text-align: center;
+  }
 }

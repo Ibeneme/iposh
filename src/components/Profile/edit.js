@@ -11,11 +11,8 @@ import Navbar from "../navbar-and-footer/Navbar";
 import BottomTab from "../navbar-and-footer/BottomTab";
 import "./Profile.css";
 import { useNavigate } from "react-router-dom";
-// import { BiMinus } from "react-icons/bi";
-// import { MdAdd } from "react-icons/md";
-import { RiDeleteBin6Line } from "react-icons/ri";
 
-const Saved = () => {
+const Profile = () => {
   const navigate = useNavigate();
   return (
     <div>
@@ -24,10 +21,13 @@ const Saved = () => {
         <div className="div-profile-div-first">
           <div className="div-profile-div-second">
             <div
+            
               style={{
                 display: "flex",
-                justifyContent: "space-between",
-                width: "100%",
+                justifyContent:'space-between',
+                width:'100%',
+  
+          
               }}
               onClick={() => navigate("/profile")}
             >
@@ -35,8 +35,9 @@ const Saved = () => {
                 style={{
                   display: "flex",
                   gap: "0.4em",
-                  width: "100%",
+                  width:'100%'
                 }}
+               
               >
                 <img width="48px" src={pics} alt="alt" />
                 <div>
@@ -65,17 +66,17 @@ const Saved = () => {
               </span>
             </div>
 
-            <div style={{ width: "100%" }}>
+            <div style={{width:'100%'}}>
               <div
                 style={{
-                  marginTop: "18px",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "space-between",
                   padding: "1em 0.3em",
                   backgroundColor: "#fff",
-
-                  width: "100%",
+                  margin: "8px 0",
+                  width:'100%',
+                  marginTop: "18px",
                 }}
                 onClick={() => navigate("/order")}
               >
@@ -116,11 +117,10 @@ const Saved = () => {
                   alignItems: "center",
                   justifyContent: "space-between",
                   padding: "1em 0.3em",
-
+                  backgroundColor: "#fff",
                   margin: "8px 0",
-                  width: "100%",
+                  width:'100%'
                 }}
-                onClick={() => navigate("/bag")}
               >
                 <div
                   style={{
@@ -154,15 +154,14 @@ const Saved = () => {
                 <MdOutlineKeyboardArrowRight />
               </div>
               <div
-                className=" active-profile"
                 style={{
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "space-between",
                   padding: "1em 0.3em",
-
+                  backgroundColor: "#fff",
                   margin: "8px 0",
-                  width: "100%",
+                  width:'100%'
                 }}
                 onClick={() => navigate("/saved")}
               >
@@ -184,6 +183,7 @@ const Saved = () => {
                       width: "2em",
                       height: "2em",
                       borderRadius: "323px",
+                
                     }}
                   >
                     <MdFavoriteBorder
@@ -205,7 +205,7 @@ const Saved = () => {
                   padding: "1em 0.3em",
                   backgroundColor: "#fff",
                   margin: "8px 0",
-                  width: "100%",
+                  width:'100%'
                 }}
               >
                 <div
@@ -247,7 +247,7 @@ const Saved = () => {
                   padding: "1em 0.3em",
                   backgroundColor: "#fff",
                   margin: "8px 0",
-                  width: "100%",
+                  width:'100%'
                 }}
               >
                 <div
@@ -268,6 +268,7 @@ const Saved = () => {
                       width: "2em",
                       height: "2em",
                       borderRadius: "323px",
+                      
                     }}
                   >
                     <GoLaw
@@ -289,7 +290,7 @@ const Saved = () => {
                   padding: "1em 0.3em",
                   backgroundColor: "#fff",
                   margin: "8px 0",
-                  width: "100%",
+                  width:'100%'
                 }}
               >
                 <div
@@ -326,288 +327,77 @@ const Saved = () => {
             </div>
           </div>
 
-          <div className="cart-first-div">
+          <div
+            style={{
+              backgroundColor: "white",
+              padding: "2em",
+              width: "100%",
+            }}
+          >
+            <h2>My Account</h2>
             <div
               style={{
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center",
+                marginTop: "1em",
               }}
             >
-              <h2>Saved</h2>{" "}
-              <p
+              <label>Full Name</label>
+              <input
                 style={{
-                  border: "1px solid gray",
-                  padding: "0.8em 1.2em",
+                  width: "100%",
+                  padding: "1em 1em",
                 }}
-              >
-                {" "}
-                Clear Saved
-              </p>
+                placeholder="Ibeneme Ikenna"
+              />
             </div>
-
             <div
               style={{
-                marginTop: "2em",
-                display: "flex",
-                gap: "0.5em",
-                width: "100%",
-                borderTop:'1px solid #d9d9d975',
-                paddingTop:'1.4em'
+                marginTop: "1em",
               }}
             >
-              <img
-                width="90px"
-                height="90px"
-                alt="alt"
-                src="https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_12_o4s6rm.png"
+              <label>Email Address</label>
+              <input
+                style={{
+                  width: "100%",
+                  padding: "1em 1em",
+                }}
+                placeholder="ibenemeikenna96@gmail.com"
               />
+            </div>
+            <div
+              style={{
+                marginTop: "1em",
+              }}
+            >
+              <label>House Address</label>
+              <input
+                style={{
+                  width: "100%",
+                  padding: "1em 1em",
+                }}
+                placeholder="No 12 Ada George Road"
+              />
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "flex-end",
+                width: "100%",
+                alignItems: "flex-end",
+              }}
+            >
               <div
                 style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  width: "100%",
-                  justifyContent: "space-between",
+                  color: "white",
+                  backgroundColor: "black",
+                  padding: "1em ",
+                  marginTop: "1em",
+                  borderRadius: "8px",
                 }}
               >
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                  }}
-                >
-                  <div>
-                    <h3
-                      style={{
-                        fontSize: "16px",
-                      }}
-                    >
-                      Bone Straight
-                    </h3>
-                    <p
-                      style={{
-                        fontSize: "14px",
-                        color: "gray",
-                        marginTop: "0.2em",
-                      }}
-                    >
-                      24inch || Black Color{" "}
-                    </p>
-                  </div>
-                  <RiDeleteBin6Line
-                    style={{
-                      color: "gray",
-                    }}
-                  />
-                </div>
-
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    width: "100%",
-                  }}
-                >
-                  {/* <div
-                    style={{
-                      display: "flex",
-                      justifyContent: "space-between",
-                      alignItems: "center",
-                      width: "fit-content",
-                      gap: "1em",
-                      marginTop: "0.3em",
-                      border: "1px solid gray",
-                      padding: "0.3em 0.5em",
-                    }}
-                  >
-                    <BiMinus />
-                    <p>1</p>
-                    <MdAdd />
-                  </div> */}
-
-                  <div className="product-description-second-div-p">
-                    <span>&#8358;</span>
-                    1000
-                  </div>
-                </div>
+                Edit Details
               </div>
             </div>
-            <div
-              style={{
-                marginTop: "2em",
-                display: "flex",
-                gap: "0.5em",
-                width: "100%",
-                borderTop:'1px solid #d9d9d975',
-                paddingTop:'1.4em'
-              }}
-            >
-              <img
-                width="90px"
-                height="90px"
-                alt="alt"
-                src="https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_12_o4s6rm.png"
-              />
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  width: "100%",
-                  justifyContent: "space-between",
-                }}
-              >
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                  }}
-                >
-                  <div>
-                    <h3
-                      style={{
-                        fontSize: "16px",
-                      }}
-                    >
-                      Bone Straight
-                    </h3>
-                    <p
-                      style={{
-                        fontSize: "14px",
-                        color: "gray",
-                        marginTop: "0.2em",
-                      }}
-                    >
-                      24inch || Black Color{" "}
-                    </p>
-                  </div>
-                  <RiDeleteBin6Line
-                    style={{
-                      color: "gray",
-                    }}
-                  />
-                </div>
-
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    width: "100%",
-                  }}
-                >
-                  {/* <div
-                    style={{
-                      display: "flex",
-                      justifyContent: "space-between",
-                      alignItems: "center",
-                      width: "fit-content",
-                      gap: "1em",
-                      marginTop: "0.3em",
-                      border: "1px solid gray",
-                      padding: "0.3em 0.5em",
-                    }}
-                  >
-                    <BiMinus />
-                    <p>1</p>
-                    <MdAdd />
-                  </div> */}
-
-                  <div className="product-description-second-div-p">
-                    <span>&#8358;</span>
-                    1000
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              style={{
-                marginTop: "2em",
-                display: "flex",
-                gap: "0.5em",
-                width: "100%",
-                borderTop:'1px solid #d9d9d975',
-                paddingTop:'1.4em'
-              }}
-            >
-              <img
-                width="90px"
-                height="90px"
-                alt="alt"
-                src="https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_12_o4s6rm.png"
-              />
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  width: "100%",
-                  justifyContent: "space-between",
-                }}
-              >
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                  }}
-                >
-                  <div>
-                    <h3
-                      style={{
-                        fontSize: "16px",
-                      }}
-                    >
-                      Bone Straight
-                    </h3>
-                    <p
-                      style={{
-                        fontSize: "14px",
-                        color: "gray",
-                        marginTop: "0.2em",
-                      }}
-                    >
-                      24inch || Black Color{" "}
-                    </p>
-                  </div>
-                  <RiDeleteBin6Line
-                    style={{
-                      color: "gray",
-                    }}
-                  />
-                </div>
-
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    width: "100%",
-                  }}
-                >
-                  {/* <div
-                    style={{
-                      display: "flex",
-                      justifyContent: "space-between",
-                      alignItems: "center",
-                      width: "fit-content",
-                      gap: "1em",
-                      marginTop: "0.3em",
-                      border: "1px solid gray",
-                      padding: "0.3em 0.5em",
-                    }}
-                  >
-                    <BiMinus />
-                    <p>1</p>
-                    <MdAdd />
-                  </div> */}
-
-                  <div className="product-description-second-div-p">
-                    <span>&#8358;</span>
-                    1000
-                  </div>
-                </div>
-              </div>
-            </div>
-            
           </div>
         </div>
       </div>
@@ -616,4 +406,4 @@ const Saved = () => {
   );
 };
 
-export default Saved;
+export default Profile;
