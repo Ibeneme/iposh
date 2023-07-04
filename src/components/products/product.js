@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../navbar-and-footer/Navbar";
 import Search from "../MobileView/Search";
-import logo from "../MobileView/images/Frame 23359.png";
+
 import productsData from "../TestingData/Data";
 import image from "../MobileView/images/ewien-van-bergeijk-kwant-Pi2o-Q6ZQjE-unsplash 2.png";
 import BottomTab from "../navbar-and-footer/BottomTab";
@@ -13,24 +13,14 @@ const ProductsHome = () => {
   return (
     <div>
       <Navbar />
-
       <div>
         <Search />
       </div>
       <div>
-        <img
-          alt="im"
-          src={logo}
-          width="100%"
-          style={{
-            padding: "1em",
-          }}
-        />
-
         <div>
           <h2
             style={{
-              marginTop: "4em",
+              marginTop: "2em",
               textAlign: "center",
             }}
           >
@@ -92,7 +82,7 @@ const ProductsHome = () => {
 
       <div
         style={{
-          marginTop: "4em",
+          marginTop: "3em",
         }}
       >
         <h2

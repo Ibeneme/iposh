@@ -150,6 +150,431 @@ Lace Color: Nature Black"`,
     sizes: ["24 Inches", "32 Inches", "36 Inches"],
     price: 24.99,
   },
+  {
+    id: 73,
+    image: [
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_12_o4s6rm.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_11_xkoi6a.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_10_dhmtkq.png",
+    ],
+    title: "Brazzilian Hairs",
+    description: `Bone straight is a type of raw, straight and firm hair that is thin, sleek, scanty and well knotted from the left to the bottom. 
+    Hair Bundles Specification:
+    Hair Material: Indian Virgin Human Hair, Healthy and Natural
+    Hair Length: 10 - 30 inch
+    Hair Weight: About 3.5 oz (95-100 g)/Bundle
+    Hair Color: Natural Black
+    Hair Closures Specification:
+    Hair Material: Unprocessed Virgin Human Hair
+    Lace Material: Swiss Lace
+    Lace Size: 4 by 4 inch
+    Hairstyle: Free Part
+    Hair Weight: About 1.1 oz (35 gram)/piece
+    Lace Color: Nature Black"`,
+    colors: ["#9D6612", "#000000", "#550A84", "#D9D9D9"],
+    sizes: ["24 Inches", "32 Inches", "36 Inches"],
+    price: 24.99,
+  },
+  {
+    id: 74,
+    image: [
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_12_o4s6rm.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_11_xkoi6a.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_10_dhmtkq.png",
+    ],
+    title: "Brazzilian Hairs",
+    description: `Bone straight is a type of raw, straight and firm hair that is thin, sleek, scanty and well knotted from the left to the bottom. 
+    Hair Bundles Specification:
+    Hair Material: Indian Virgin Human Hair, Healthy and Natural
+    Hair Length: 10 - 30 inch
+    Hair Weight: About 3.5 oz (95-100 g)/Bundle
+    Hair Color: Natural Black
+    Hair Closures Specification:
+    Hair Material: Unprocessed Virgin Human Hair
+    Lace Material: Swiss Lace
+    Lace Size: 4 by 4 inch
+    Hairstyle: Free Part
+    Hair Weight: About 1.1 oz (35 gram)/piece
+    Lace Color: Nature Black"`,
+    colors: ["#9D6612", "#000000", "#550A84", "#D9D9D9"],
+    sizes: ["24 Inches", "32 Inches", "36 Inches"],
+    price: 24.99,
+  },
+  {
+    id: 75,
+    image: [
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_12_o4s6rm.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_11_xkoi6a.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_10_dhmtkq.png",
+    ],
+    title: "Brazzilian Hairs",
+    description: `Bone straight is a type of raw, straight and firm hair that is thin, sleek, scanty and well knotted from the left to the bottom. 
+    Hair Bundles Specification:
+    Hair Material: Indian Virgin Human Hair, Healthy and Natural
+    Hair Length: 10 - 30 inch
+    Hair Weight: About 3.5 oz (95-100 g)/Bundle
+    Hair Color: Natural Black
+    Hair Closures Specification:
+    Hair Material: Unprocessed Virgin Human Hair
+    Lace Material: Swiss Lace
+    Lace Size: 4 by 4 inch
+    Hairstyle: Free Part
+    Hair Weight: About 1.1 oz (35 gram)/piece
+    Lace Color: Nature Black"`,
+    colors: ["#9D6612", "#000000", "#550A84", "#D9D9D9"],
+    sizes: ["24 Inches", "32 Inches", "36 Inches"],
+    price: 24.99,
+  },
+  {
+    id: 76,
+    image: [
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_12_o4s6rm.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_11_xkoi6a.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_10_dhmtkq.png",
+    ],
+    title: "Brazzilian Hairs",
+    description: `Bone straight is a type of raw, straight and firm hair that is thin, sleek, scanty and well knotted from the left to the bottom. 
+    Hair Bundles Specification:
+    Hair Material: Indian Virgin Human Hair, Healthy and Natural
+    Hair Length: 10 - 30 inch
+    Hair Weight: About 3.5 oz (95-100 g)/Bundle
+    Hair Color: Natural Black
+    Hair Closures Specification:
+    Hair Material: Unprocessed Virgin Human Hair
+    Lace Material: Swiss Lace
+    Lace Size: 4 by 4 inch
+    Hairstyle: Free Part
+    Hair Weight: About 1.1 oz (35 gram)/piece
+    Lace Color: Nature Black"`,
+    colors: ["#9D6612", "#000000", "#550A84", "#D9D9D9"],
+    sizes: ["24 Inches", "32 Inches", "36 Inches"],
+    price: 24.99,
+  },
+  {
+    id: 77,
+    image: [
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_12_o4s6rm.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_11_xkoi6a.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_10_dhmtkq.png",
+    ],
+    title: "Brazzilian Hairs",
+    description: `Bone straight is a type of raw, straight and firm hair that is thin, sleek, scanty and well knotted from the left to the bottom. 
+    Hair Bundles Specification:
+    Hair Material: Indian Virgin Human Hair, Healthy and Natural
+    Hair Length: 10 - 30 inch
+    Hair Weight: About 3.5 oz (95-100 g)/Bundle
+    Hair Color: Natural Black
+    Hair Closures Specification:
+    Hair Material: Unprocessed Virgin Human Hair
+    Lace Material: Swiss Lace
+    Lace Size: 4 by 4 inch
+    Hairstyle: Free Part
+    Hair Weight: About 1.1 oz (35 gram)/piece
+    Lace Color: Nature Black"`,
+    colors: ["#9D6612", "#000000", "#550A84", "#D9D9D9"],
+    sizes: ["24 Inches", "32 Inches", "36 Inches"],
+    price: 24.99,
+  },
+  {
+    id: 78,
+    image: [
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_12_o4s6rm.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_11_xkoi6a.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_10_dhmtkq.png",
+    ],
+    title: "Brazzilian Hairs",
+    description: `Bone straight is a type of raw, straight and firm hair that is thin, sleek, scanty and well knotted from the left to the bottom. 
+    Hair Bundles Specification:
+    Hair Material: Indian Virgin Human Hair, Healthy and Natural
+    Hair Length: 10 - 30 inch
+    Hair Weight: About 3.5 oz (95-100 g)/Bundle
+    Hair Color: Natural Black
+    Hair Closures Specification:
+    Hair Material: Unprocessed Virgin Human Hair
+    Lace Material: Swiss Lace
+    Lace Size: 4 by 4 inch
+    Hairstyle: Free Part
+    Hair Weight: About 1.1 oz (35 gram)/piece
+    Lace Color: Nature Black"`,
+    colors: ["#9D6612", "#000000", "#550A84", "#D9D9D9"],
+    sizes: ["24 Inches", "32 Inches", "36 Inches"],
+    price: 24.99,
+  },
+  {
+    id: 79,
+    image: [
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_12_o4s6rm.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_11_xkoi6a.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_10_dhmtkq.png",
+    ],
+    title: "Brazzilian Hairs",
+    description: `Bone straight is a type of raw, straight and firm hair that is thin, sleek, scanty and well knotted from the left to the bottom. 
+    Hair Bundles Specification:
+    Hair Material: Indian Virgin Human Hair, Healthy and Natural
+    Hair Length: 10 - 30 inch
+    Hair Weight: About 3.5 oz (95-100 g)/Bundle
+    Hair Color: Natural Black
+    Hair Closures Specification:
+    Hair Material: Unprocessed Virgin Human Hair
+    Lace Material: Swiss Lace
+    Lace Size: 4 by 4 inch
+    Hairstyle: Free Part
+    Hair Weight: About 1.1 oz (35 gram)/piece
+    Lace Color: Nature Black"`,
+    colors: ["#9D6612", "#000000", "#550A84", "#D9D9D9"],
+    sizes: ["24 Inches", "32 Inches", "36 Inches"],
+    price: 24.99,
+  },
+  {
+    id: 80,
+    image: [
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_12_o4s6rm.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_11_xkoi6a.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_10_dhmtkq.png",
+    ],
+    title: "Brazzilian Hairs",
+    description: `Bone straight is a type of raw, straight and firm hair that is thin, sleek, scanty and well knotted from the left to the bottom. 
+    Hair Bundles Specification:
+    Hair Material: Indian Virgin Human Hair, Healthy and Natural
+    Hair Length: 10 - 30 inch
+    Hair Weight: About 3.5 oz (95-100 g)/Bundle
+    Hair Color: Natural Black
+    Hair Closures Specification:
+    Hair Material: Unprocessed Virgin Human Hair
+    Lace Material: Swiss Lace
+    Lace Size: 4 by 4 inch
+    Hairstyle: Free Part
+    Hair Weight: About 1.1 oz (35 gram)/piece
+    Lace Color: Nature Black"`,
+    colors: ["#9D6612", "#000000", "#550A84", "#D9D9D9"],
+    sizes: ["24 Inches", "32 Inches", "36 Inches"],
+    price: 24.99,
+  },
+  {
+    id: 81,
+    image: [
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_12_o4s6rm.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_11_xkoi6a.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_10_dhmtkq.png",
+    ],
+    title: "Brazzilian Hairs",
+    description: `Bone straight is a type of raw, straight and firm hair that is thin, sleek, scanty and well knotted from the left to the bottom. 
+    Hair Bundles Specification:
+    Hair Material: Indian Virgin Human Hair, Healthy and Natural
+    Hair Length: 10 - 30 inch
+    Hair Weight: About 3.5 oz (95-100 g)/Bundle
+    Hair Color: Natural Black
+    Hair Closures Specification:
+    Hair Material: Unprocessed Virgin Human Hair
+    Lace Material: Swiss Lace
+    Lace Size: 4 by 4 inch
+    Hairstyle: Free Part
+    Hair Weight: About 1.1 oz (35 gram)/piece
+    Lace Color: Nature Black"`,
+    colors: ["#9D6612", "#000000", "#550A84", "#D9D9D9"],
+    sizes: ["24 Inches", "32 Inches", "36 Inches"],
+    price: 24.99,
+  },
+  {
+    id: 82,
+    image: [
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_12_o4s6rm.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_11_xkoi6a.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_10_dhmtkq.png",
+    ],
+    title: "Brazzilian Hairs",
+    description: `Bone straight is a type of raw, straight and firm hair that is thin, sleek, scanty and well knotted from the left to the bottom. 
+    Hair Bundles Specification:
+    Hair Material: Indian Virgin Human Hair, Healthy and Natural
+    Hair Length: 10 - 30 inch
+    Hair Weight: About 3.5 oz (95-100 g)/Bundle
+    Hair Color: Natural Black
+    Hair Closures Specification:
+    Hair Material: Unprocessed Virgin Human Hair
+    Lace Material: Swiss Lace
+    Lace Size: 4 by 4 inch
+    Hairstyle: Free Part
+    Hair Weight: About 1.1 oz (35 gram)/piece
+    Lace Color: Nature Black"`,
+    colors: ["#9D6612", "#000000", "#550A84", "#D9D9D9"],
+    sizes: ["24 Inches", "32 Inches", "36 Inches"],
+    price: 24.99,
+  },
+  {
+    id: 83,
+    image: [
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_12_o4s6rm.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_11_xkoi6a.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_10_dhmtkq.png",
+    ],
+    title: "Brazzilian Hairs",
+    description: `Bone straight is a type of raw, straight and firm hair that is thin, sleek, scanty and well knotted from the left to the bottom. 
+    Hair Bundles Specification:
+    Hair Material: Indian Virgin Human Hair, Healthy and Natural
+    Hair Length: 10 - 30 inch
+    Hair Weight: About 3.5 oz (95-100 g)/Bundle
+    Hair Color: Natural Black
+    Hair Closures Specification:
+    Hair Material: Unprocessed Virgin Human Hair
+    Lace Material: Swiss Lace
+    Lace Size: 4 by 4 inch
+    Hairstyle: Free Part
+    Hair Weight: About 1.1 oz (35 gram)/piece
+    Lace Color: Nature Black"`,
+    colors: ["#9D6612", "#000000", "#550A84", "#D9D9D9"],
+    sizes: ["24 Inches", "32 Inches", "36 Inches"],
+    price: 24.99,
+  },
+  {
+    id: 84,
+    image: [
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_12_o4s6rm.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_11_xkoi6a.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_10_dhmtkq.png",
+    ],
+    title: "Brazzilian Hairs",
+    description: `Bone straight is a type of raw, straight and firm hair that is thin, sleek, scanty and well knotted from the left to the bottom. 
+    Hair Bundles Specification:
+    Hair Material: Indian Virgin Human Hair, Healthy and Natural
+    Hair Length: 10 - 30 inch
+    Hair Weight: About 3.5 oz (95-100 g)/Bundle
+    Hair Color: Natural Black
+    Hair Closures Specification:
+    Hair Material: Unprocessed Virgin Human Hair
+    Lace Material: Swiss Lace
+    Lace Size: 4 by 4 inch
+    Hairstyle: Free Part
+    Hair Weight: About 1.1 oz (35 gram)/piece
+    Lace Color: Nature Black"`,
+    colors: ["#9D6612", "#000000", "#550A84", "#D9D9D9"],
+    sizes: ["24 Inches", "32 Inches", "36 Inches"],
+    price: 24.99,
+  },
+  {
+    id: 85,
+    image: [
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_12_o4s6rm.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_11_xkoi6a.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_10_dhmtkq.png",
+    ],
+    title: "Brazzilian Hairs",
+    description: `Bone straight is a type of raw, straight and firm hair that is thin, sleek, scanty and well knotted from the left to the bottom. 
+    Hair Bundles Specification:
+    Hair Material: Indian Virgin Human Hair, Healthy and Natural
+    Hair Length: 10 - 30 inch
+    Hair Weight: About 3.5 oz (95-100 g)/Bundle
+    Hair Color: Natural Black
+    Hair Closures Specification:
+    Hair Material: Unprocessed Virgin Human Hair
+    Lace Material: Swiss Lace
+    Lace Size: 4 by 4 inch
+    Hairstyle: Free Part
+    Hair Weight: About 1.1 oz (35 gram)/piece
+    Lace Color: Nature Black"`,
+    colors: ["#9D6612", "#000000", "#550A84", "#D9D9D9"],
+    sizes: ["24 Inches", "32 Inches", "36 Inches"],
+    price: 24.99,
+  },
+  {
+    id: 86,
+    image: [
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_12_o4s6rm.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_11_xkoi6a.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_10_dhmtkq.png",
+    ],
+    title: "Brazzilian Hairs",
+    description: `Bone straight is a type of raw, straight and firm hair that is thin, sleek, scanty and well knotted from the left to the bottom. 
+    Hair Bundles Specification:
+    Hair Material: Indian Virgin Human Hair, Healthy and Natural
+    Hair Length: 10 - 30 inch
+    Hair Weight: About 3.5 oz (95-100 g)/Bundle
+    Hair Color: Natural Black
+    Hair Closures Specification:
+    Hair Material: Unprocessed Virgin Human Hair
+    Lace Material: Swiss Lace
+    Lace Size: 4 by 4 inch
+    Hairstyle: Free Part
+    Hair Weight: About 1.1 oz (35 gram)/piece
+    Lace Color: Nature Black"`,
+    colors: ["#9D6612", "#000000", "#550A84", "#D9D9D9"],
+    sizes: ["24 Inches", "32 Inches", "36 Inches"],
+    price: 24.99,
+  },
+  {
+    id: 87,
+    image: [
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_12_o4s6rm.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_11_xkoi6a.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_10_dhmtkq.png",
+    ],
+    title: "Brazzilian Hairs",
+    description: `Bone straight is a type of raw, straight and firm hair that is thin, sleek, scanty and well knotted from the left to the bottom. 
+    Hair Bundles Specification:
+    Hair Material: Indian Virgin Human Hair, Healthy and Natural
+    Hair Length: 10 - 30 inch
+    Hair Weight: About 3.5 oz (95-100 g)/Bundle
+    Hair Color: Natural Black
+    Hair Closures Specification:
+    Hair Material: Unprocessed Virgin Human Hair
+    Lace Material: Swiss Lace
+    Lace Size: 4 by 4 inch
+    Hairstyle: Free Part
+    Hair Weight: About 1.1 oz (35 gram)/piece
+    Lace Color: Nature Black"`,
+    colors: ["#9D6612", "#000000", "#550A84", "#D9D9D9"],
+    sizes: ["24 Inches", "32 Inches", "36 Inches"],
+    price: 24.99,
+  },
+  {
+    id: 88,
+    image: [
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_12_o4s6rm.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_11_xkoi6a.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_10_dhmtkq.png",
+    ],
+    title: "Brazzilian Hairs",
+    description: `Bone straight is a type of raw, straight and firm hair that is thin, sleek, scanty and well knotted from the left to the bottom. 
+    Hair Bundles Specification:
+    Hair Material: Indian Virgin Human Hair, Healthy and Natural
+    Hair Length: 10 - 30 inch
+    Hair Weight: About 3.5 oz (95-100 g)/Bundle
+    Hair Color: Natural Black
+    Hair Closures Specification:
+    Hair Material: Unprocessed Virgin Human Hair
+    Lace Material: Swiss Lace
+    Lace Size: 4 by 4 inch
+    Hairstyle: Free Part
+    Hair Weight: About 1.1 oz (35 gram)/piece
+    Lace Color: Nature Black"`,
+    colors: ["#9D6612", "#000000", "#550A84", "#D9D9D9"],
+    sizes: ["24 Inches", "32 Inches", "36 Inches"],
+    price: 24.99,
+  },
+  {
+    id: 89,
+    image: [
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_12_o4s6rm.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_11_xkoi6a.png",
+      "https://res.cloudinary.com/dqa2jr535/image/upload/v1688304628/dev-asangbam--LCwTy91CWI-unsplash_10_dhmtkq.png",
+    ],
+    title: "Brazzilian Hairs",
+    description: `Bone straight is a type of raw, straight and firm hair that is thin, sleek, scanty and well knotted from the left to the bottom. 
+    Hair Bundles Specification:
+    Hair Material: Indian Virgin Human Hair, Healthy and Natural
+    Hair Length: 10 - 30 inch
+    Hair Weight: About 3.5 oz (95-100 g)/Bundle
+    Hair Color: Natural Black
+    Hair Closures Specification:
+    Hair Material: Unprocessed Virgin Human Hair
+    Lace Material: Swiss Lace
+    Lace Size: 4 by 4 inch
+    Hairstyle: Free Part
+    Hair Weight: About 1.1 oz (35 gram)/piece
+    Lace Color: Nature Black"`,
+    colors: ["#9D6612", "#000000", "#550A84", "#D9D9D9"],
+    sizes: ["24 Inches", "32 Inches", "36 Inches"],
+    price: 24.99,
+  },
 ];
 
 export default Data;

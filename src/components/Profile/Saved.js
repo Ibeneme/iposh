@@ -15,7 +15,6 @@ import { useNavigate } from "react-router-dom";
 // import { MdAdd } from "react-icons/md";
 import { RiDeleteBin6Line } from "react-icons/ri";
 
-
 const Saved = () => {
   const navigate = useNavigate();
   return (
@@ -68,15 +67,14 @@ const Saved = () => {
 
             <div style={{ width: "100%" }}>
               <div
-               
                 style={{
-                      marginTop: "18px",
+                  marginTop: "18px",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "space-between",
                   padding: "1em 0.3em",
                   backgroundColor: "#fff",
-        
+
                   width: "100%",
                 }}
                 onClick={() => navigate("/order")}
@@ -118,11 +116,10 @@ const Saved = () => {
                   alignItems: "center",
                   justifyContent: "space-between",
                   padding: "1em 0.3em",
-              
+
                   margin: "8px 0",
                   width: "100%",
                 }}
-          
                 onClick={() => navigate("/bag")}
               >
                 <div
@@ -157,13 +154,13 @@ const Saved = () => {
                 <MdOutlineKeyboardArrowRight />
               </div>
               <div
-                 className=" active-profile"
+                className=" active-profile"
                 style={{
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "space-between",
                   padding: "1em 0.3em",
-          
+
                   margin: "8px 0",
                   width: "100%",
                 }}
@@ -355,7 +352,6 @@ const Saved = () => {
                 display: "flex",
                 gap: "0.5em",
                 width: "100%",
-          
               }}
             >
               <img
@@ -379,8 +375,22 @@ const Saved = () => {
                   }}
                 >
                   <div>
-                    <h3>Bone Straight</h3>
-                    <p>24inch || Black Color </p>
+                    <h3
+                      style={{
+                        fontSize: "16px",
+                      }}
+                    >
+                      Bone Straight
+                    </h3>
+                    <p
+                      style={{
+                        fontSize: "14px",
+                        color: "gray",
+                        marginTop: "0.2em",
+                      }}
+                    >
+                      24inch || Black Color{" "}
+                    </p>
                   </div>
                   <RiDeleteBin6Line
                     style={{
@@ -420,11 +430,9 @@ const Saved = () => {
                   </div>
                 </div>
               </div>
-           
             </div>
           </div>
         </div>
-        
       </div>
       <BottomTab />
     </div>

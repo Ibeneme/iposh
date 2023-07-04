@@ -186,7 +186,9 @@ nav {
 .bottomtab-link.active {
   color: #fc2c9c;
 }
-
+.bouncy-hairs {
+    padding-bottom: 0.2em;
+  }
 @media (min-width: 1450px) {
   .bouncy-hairs {
     padding-bottom: 0.7em;
@@ -199,6 +201,7 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     gap: 1em;
   }
+  
 }
 
 .product-item {
