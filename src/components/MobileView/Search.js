@@ -25,7 +25,8 @@ const SearchInput = () => {
             padding: "0.8em 2.9em",
             paddingLeft: "2.5em",
             borderRadius: "4px",
-            border: "1px solid #ccc",
+            border: "1px solid #666",
+            fontSize:'16px',
           }}
           placeholder="Search for Hairs"
         />
