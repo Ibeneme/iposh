@@ -7,7 +7,6 @@ import { FiHelpCircle } from "react-icons/fi";
 import { TbLogout } from "react-icons/tb";
 import { GoLaw } from "react-icons/go";
 import { BsBag } from "react-icons/bs";
-import Navbar from "../navbar-and-footer/Navbar";
 import BottomTab from "../navbar-and-footer/BottomTab";
 import "./Profile.css";
 import { useNavigate } from "react-router-dom";
@@ -16,7 +15,6 @@ const Profile = () => {
   const navigate = useNavigate();
   return (
     <div>
-      <Navbar />
       <div className="div-profile-div">
         <div className="div-profile-div-first">
           <div className="div-profile-div-second">

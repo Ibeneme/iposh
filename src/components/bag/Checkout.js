@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Navbar from "../navbar-and-footer/Navbar";
+
 
 const Checkout = () => {
   const [selectedDeliveryMethod, setSelectedDeliveryMethod] = useState("");
@@ -10,7 +10,6 @@ const Checkout = () => {
   return (
     <div>
       <div className="first-checkout">
-        <Navbar />{" "}
         <div className="div-checkout">
           <div
             style={{

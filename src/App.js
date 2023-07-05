@@ -16,6 +16,7 @@ import Verify from "./components/auth/Verify";
 import Forgot from "./components/auth/Forgot";
 import ProfileEdit from "./components/Profile/edit";
 import Category from "./components/products/Category";
+import Navbar from "./components/navbar-and-footer/Navbar";
 
 const ScrollToTop = () => {
   const navigate = useNavigate();
@@ -31,6 +32,7 @@ function App() {
   return (
     <>
       <ScrollToTop />
+      <Navbar />
       <Routes>
         <Route path="/" element={<ProductsHome />} />
         <Route path="/footer" element={<Footer />} />

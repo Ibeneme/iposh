@@ -4,7 +4,6 @@ import { MdAdd } from "react-icons/md";
 import "../bag/bag.css";
 import { useNavigate } from "react-router-dom";
 import BottomTab from "../navbar-and-footer/BottomTab";
-import Navbar from "../navbar-and-footer/Navbar";
 import { RiDeleteBin6Line } from "react-icons/ri";
 import { useSwipeable } from "react-swipeable";
 
@@ -39,7 +38,6 @@ const Bag = () => {
   const navigate = useNavigate();
   return (
     <div className="div-cart-div">
-      <Navbar />
       <div className="cart-div">
         <div className="cart-first-div first-div-div">
           <div
@@ -50,15 +48,17 @@ const Bag = () => {
             }}
           >
             <h2>Bag</h2>{" "}
-            <p
+            <button
               style={{
                 border: "1px solid gray",
-                padding: "0.8em 1.2em",
+                width: '8em',
+                height:'50px',
+                backgroundColor:'white'
               }}
               onClick={handleModalOpen}
             >
               Clear Bag
-            </p>
+            </button>
             {isModalOpen && (
               <div
                 style={{
@@ -92,7 +92,7 @@ const Bag = () => {
                     style={{
                       textAlign: "center",
                       fontSize:'0.9em',
-                      marginTop:'0.3em',
+                      marginTop:'0.5em',
                       color:'gray'
                     }}
                   >
@@ -102,7 +102,7 @@ const Bag = () => {
                     style={{
                       marginTop: "3em",
                       display: "flex",
-                      gap:'0.3em'
+                      gap:'0.8em'
                     }}
                   >
                     <button
@@ -112,6 +112,7 @@ const Bag = () => {
                         border: "1px solid black",
                         backgroundColor: "white",
                         color: "black",
+                        fontSize:'1em'
                       }}
                       onClick={handleClearBag}
                     >
@@ -123,6 +124,7 @@ const Bag = () => {
                         border: "none",
                         backgroundColor: "#fc2c9c",
                         color: "white",
+                        fontSize:'1em'
                       }} onClick={handleModalClose}>Yes, Clear Bag</button>
                   </div>
                 </div>

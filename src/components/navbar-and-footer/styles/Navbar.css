@@ -29,16 +29,14 @@ a {
 /* Styling our header in which our nav bar is sitted inside */
 header {
   height: 130px;
-
   padding: 0;
   background-color: white;
   color: #000000;
   position: fixed;
   top: 0;
-  left: 0;
-  right: 0;
   z-index: 1;
   width: 100%;
+  pointer-events:painted;
 }
 
 .take-for-header {
@@ -47,7 +45,6 @@ header {
   justify-content: space-between;
   height: 60px;
   gap: 2.5em;
-  margin-top: 0.7em;
   background-color: white;
   color: #000000;
   padding: 0 2em;

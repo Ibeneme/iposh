@@ -15,6 +15,9 @@ function Navbar() {
     navRef.current.classList.toggle("responsive_nav");
   };
 
+
+
+
   return (
     <header
     className="header-header"
@@ -22,13 +25,18 @@ function Navbar() {
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-between",
+margin:'0em'
+      
       }}
+      
+
     >
       <div
         className="take-for-header"
         style={{
           display: "flex",
           justifyContent: "space-between",
+            
         }}
       >
         <div>
@@ -41,7 +49,7 @@ function Navbar() {
               }}
             />
           </button>
-          <div className="nav-three-icons" onClick={(e) => navigate("/")}>
+          <div className="nav-three-icons" onClick={() => navigate("/")}>
             <h3 className="h3-for-navbar">iPosh</h3>
           </div>
         </div>
@@ -158,8 +166,8 @@ function Navbar() {
             }}
           >
             <BsSearch className="nav-three-icons" />
-            <BiSolidUser />
-            <BsHandbagFill onClick={()=>navigate('/bag')} />
+            <BiSolidUser onClick={() => navigate("/signup")} />
+            <BsHandbagFill onClick={() => navigate("/bag")} />
           </div>
         </div>
       </div>
@@ -187,6 +195,7 @@ function Navbar() {
             overflow: "auto",
             whiteSpace: "nowrap",
             scrollbarWidth: "0",
+          
             scrollbarColor: "transparent transparent",
           }}
         >
