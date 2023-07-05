@@ -134,6 +134,8 @@ function Navbar() {
                     border: "none",
                     borderRadius: "637px",
                     color: "#000",
+                    height:'60px',
+                    fontSize:'16px',
                   }}
                 >
                   {" "}

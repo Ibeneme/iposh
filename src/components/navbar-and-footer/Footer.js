@@ -1,12 +1,18 @@
 import React from "react";
 import "./styles/Footer.css";
+import { FaTwitter, FaTiktok } from "react-icons/fa";
 
+import "../navbar-and-footer/styles/Navbar.css";
+
+import { AiFillInstagram } from "react-icons/ai";
 const Footer = () => {
   return (
-    <div style={{
-        minHeight:'50vh',
-        backgroundColor:'black'
-      }}>
+    <div
+      style={{
+        minHeight: "50vh",
+        backgroundColor: "black",
+      }}
+    >
       <div className="footer-background-black">
         <div className="iposh-flex">
           <div className="iposh-contents">
@@ -30,6 +36,29 @@ const Footer = () => {
               />
               <button className="button-stlye">Submit</button>
             </div>
+          </div>
+        </div>
+        <div style={{
+          display:'flex',
+          justifyContent:'center',
+          marginBottom:'23px',
+          marginTop:'-34px'
+        }}>
+          <div
+            className="nav-three-icons-show"
+            style={{
+              display: "flex",
+              width: "fit-content",
+              alignItems: "center",
+              gap: "2em",
+              fontSize: "1.53em",
+              justifyContent: "space-between",
+              margin: "1.4em 0",
+            }}
+          >
+            <FaTwitter />
+            <AiFillInstagram />
+            <FaTiktok />
           </div>
         </div>
         <p
