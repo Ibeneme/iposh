@@ -13,6 +13,7 @@ const Forgot = () => {
         <h3
           style={{
             textAlign: "center",
+            fontSize:'24px'
           }}
         >
           Forgot Password
@@ -20,10 +21,9 @@ const Forgot = () => {
         <p
           style={{
             textAlign: "center",
-            fontSize:"14px",
             color:'gray',
             marginTop:'0.3em',
-            zIndex:'1'
+            fontSize:'18px'
           }}
           onClick={()=>navigate('/signin')}
         >
@@ -35,6 +35,7 @@ const Forgot = () => {
           style={{
             display: "flex",
             flexDirection: "column",
+            fontSize:'18px'
           }}
         >
           <label
@@ -53,11 +54,13 @@ const Forgot = () => {
           >
             <input
               type="email"
+              
               placeholder="Enter your Email Address"
               style={{
                 paddingLeft: "32px",
-                height: "50px",
+                height: "60px",
                 width: "100%",
+                fontSize:'16px'
               }}
             />
             <RiMailLine
@@ -75,12 +78,13 @@ const Forgot = () => {
   
         <button
           style={{
-            height: "50px",
+            height: "60px",
             backgroundColor: "#FC2C9C",
             width: "100%",
             border: "none",
             color: "white",
             marginTop: "2.3em",
+            fontSize:'16px'
       
           }}
           onClick={()=>navigate('/verify')}

@@ -24,6 +24,7 @@ const SignIn = () => {
         <h3
           style={{
             textAlign: "center",
+            fontSize: "24px",
           }}
         >
           Login to IPosh
@@ -31,11 +32,11 @@ const SignIn = () => {
         <p
           style={{
             textAlign: "center",
-            fontSize: "14px",
             color: "gray",
             marginTop: "0.3em",
-            zIndex:'1'
+            fontSize:'18px'
           }}
+          className="z"
         >
           Don't have an account?{" "}
           <span
@@ -51,8 +52,9 @@ const SignIn = () => {
           style={{
             display: "flex",
             flexDirection: "column",
-            zIndex:'1'
+            fontSize:'18px'
           }}
+          className="z"
         >
           <label
             style={{
@@ -73,8 +75,9 @@ const SignIn = () => {
               placeholder="Enter your Email Address"
               style={{
                 paddingLeft: "32px",
-                height: "50px",
+                height: "60px",
                 width: "100%",
+                fontSize:'16px'
               }}
             />
             <RiMailLine
@@ -89,7 +92,7 @@ const SignIn = () => {
             />
           </div>
         </div>
-        <div style={{ display: "flex", flexDirection: "column" }}>
+        <div style={{ display: "flex", flexDirection: "column",  fontSize:'18px' }}>
           <label style={{ marginTop: "1.3em" }}>Password</label>
           <div
             style={{
@@ -103,8 +106,9 @@ const SignIn = () => {
               placeholder="Enter your Password"
               style={{
                 paddingLeft: "32px",
-                height: "50px",
+                height: "60px",
                 width: "100%",
+                fontSize:'16px'
               }}
             />
             <RiLockPasswordLine
@@ -156,12 +160,13 @@ const SignIn = () => {
         </p>
         <button
           style={{
-            height: "50px",
+            height: "60px",
             backgroundColor: "#FC2C9C",
             width: "100%",
             border: "none",
             color: "white",
             marginTop: "2.3em",
+            fontSize:'16px'
           }}
           onClick={() => navigate("/verify")}
         >

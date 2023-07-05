@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-
 const Checkout = () => {
   const [selectedDeliveryMethod, setSelectedDeliveryMethod] = useState("");
 
@@ -114,7 +113,7 @@ const Checkout = () => {
             <input
               style={{
                 width: "100%",
-                height: '50px',
+                height: "60px",
                 padding: "1em",
               }}
               placeholder="Enter your house Address"
@@ -122,7 +121,7 @@ const Checkout = () => {
             <input
               style={{
                 width: "100%",
-                 height: '50px',
+                height: "60px",
                 padding: "1em",
               }}
               placeholder="Enter your street number"
@@ -130,7 +129,7 @@ const Checkout = () => {
             <input
               style={{
                 width: "100%",
-                 height: '50px',
+                height: "60px",
                 padding: "1em",
               }}
               placeholder="Enter your city of residence"
@@ -138,7 +137,7 @@ const Checkout = () => {
             <input
               style={{
                 width: "100%",
-                 height: '50px',
+                height: "60px",
                 padding: "1em",
               }}
               placeholder="--Select your LGA"
@@ -146,7 +145,7 @@ const Checkout = () => {
             <input
               style={{
                 width: "100%",
-                 height: '50px',
+                height: "60px",
                 padding: "1em",
               }}
               placeholder="--Select your Land Mark"
@@ -154,7 +153,7 @@ const Checkout = () => {
             <input
               style={{
                 width: "100%",
-                 height: '50px',
+                height: "60px",
                 padding: "1em",
               }}
               placeholder="--Select your State"
@@ -171,12 +170,13 @@ const Checkout = () => {
               <button
                 style={{
                   width: "fit-content",
-                  height: "50px",
+                  height: "60px",
                   padding: "0 2em",
                   backgroundColor: "black",
                   color: "white",
                   border: "none",
                   borderRadius: "5px",
+                  fontSize:'16px'
                 }}
               >
                 Save Address
@@ -332,7 +332,10 @@ const Checkout = () => {
                 >
                   <p>Grand Total</p>
 
-                  <div className="product-description-second-div-p">
+                  <div style={{
+                   fontSize:'24px'
+                }}
+                className="product-description-second-div-p">
                     <span>&#8358;</span>
                     1000
                   </div>
@@ -341,10 +344,11 @@ const Checkout = () => {
                   <button
                     style={{
                       width: "100%",
-                      height: "50px",
+                      height: "60px",
                       backgroundColor: "#FC2C9C",
                       color: "white",
                       border: "none",
+                      fontSize:'16px'
                     }}
                   >
                     Check Out

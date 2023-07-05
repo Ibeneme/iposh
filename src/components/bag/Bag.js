@@ -48,17 +48,21 @@ const Bag = () => {
             }}
           >
             <h2>Bag</h2>{" "}
-            <button
+            <div
               style={{
                 border: "1px solid gray",
                 width: '8em',
                 height:'50px',
-                backgroundColor:'white'
+                fontSize:'18px',
+                backgroundColor:'white',
+                display:'flex',
+                justifyContent:'center',
+                alignItems:'center',
               }}
               onClick={handleModalOpen}
             >
               Clear Bag
-            </button>
+            </div>
             {isModalOpen && (
               <div
                 style={{
@@ -72,6 +76,7 @@ const Bag = () => {
                   justifyContent: "center",
                   alignItems: "center",
                   zIndex: "99999",
+                  padding:'16px'
                 }}
               >
                 <div
@@ -84,6 +89,7 @@ const Bag = () => {
                   <h3
                     style={{
                       textAlign: "center",
+                      fontSize:'24px'
                     }}
                   >
                     Confirm you want to Clear your bag?
@@ -91,9 +97,9 @@ const Bag = () => {
                   <p
                     style={{
                       textAlign: "center",
-                      fontSize:'0.9em',
+                      fontSize:'18px',
                       marginTop:'0.5em',
-                      color:'gray'
+                      color:'gray',
                     }}
                   >
                     Are you sure you want to clear your bag?
@@ -112,7 +118,7 @@ const Bag = () => {
                         border: "1px solid black",
                         backgroundColor: "white",
                         color: "black",
-                        fontSize:'1em'
+                        fontSize:'18px'
                       }}
                       onClick={handleClearBag}
                     >
@@ -124,7 +130,7 @@ const Bag = () => {
                         border: "none",
                         backgroundColor: "#fc2c9c",
                         color: "white",
-                        fontSize:'1em'
+                        fontSize:'18px'
                       }} onClick={handleModalClose}>Yes, Clear Bag</button>
                   </div>
                 </div>
@@ -166,14 +172,14 @@ const Bag = () => {
                 <div>
                   <h3
                     style={{
-                      fontSize: "16px",
+                      fontSize: "18px",
                     }}
                   >
                     Bone Straight
                   </h3>
                   <p
                     style={{
-                      fontSize: "14px",
+                      fontSize: "16px",
                       color: "gray",
                       marginTop: "0.2em",
                     }}
@@ -215,7 +221,10 @@ const Bag = () => {
                   <MdAdd />
                 </div>
 
-                <div className="product-description-second-div-p">
+                <div style={{
+                   fontSize:'24px'
+                }}
+                className="product-description-second-div-p">
                   <span>&#8358;</span>
                   1000
                 </div>
@@ -223,6 +232,7 @@ const Bag = () => {
             </div>
             {showDeleteOption && <RiDeleteBin6Line style={{ color: "gray" }} />}
           </div>
+        
           <div
             style={{
               marginTop: "2em",
@@ -257,14 +267,14 @@ const Bag = () => {
                 <div>
                   <h3
                     style={{
-                      fontSize: "16px",
+                      fontSize: "18px",
                     }}
                   >
                     Bone Straight
                   </h3>
                   <p
                     style={{
-                      fontSize: "14px",
+                      fontSize: "16px",
                       color: "gray",
                       marginTop: "0.2em",
                     }}
@@ -306,7 +316,10 @@ const Bag = () => {
                   <MdAdd />
                 </div>
 
-                <div className="product-description-second-div-p">
+                <div style={{
+                   fontSize:'24px'
+                }}
+                className="product-description-second-div-p">
                   <span>&#8358;</span>
                   1000
                 </div>
@@ -314,6 +327,7 @@ const Bag = () => {
             </div>
             {showDeleteOption && <RiDeleteBin6Line style={{ color: "gray" }} />}
           </div>
+
           <div
             style={{
               marginTop: "2em",
@@ -348,14 +362,14 @@ const Bag = () => {
                 <div>
                   <h3
                     style={{
-                      fontSize: "16px",
+                      fontSize: "18px",
                     }}
                   >
                     Bone Straight
                   </h3>
                   <p
                     style={{
-                      fontSize: "14px",
+                      fontSize: "16px",
                       color: "gray",
                       marginTop: "0.2em",
                     }}
@@ -397,7 +411,10 @@ const Bag = () => {
                   <MdAdd />
                 </div>
 
-                <div className="product-description-second-div-p">
+                <div style={{
+                   fontSize:'24px'
+                }}
+                className="product-description-second-div-p">
                   <span>&#8358;</span>
                   1000
                 </div>
@@ -405,6 +422,7 @@ const Bag = () => {
             </div>
             {showDeleteOption && <RiDeleteBin6Line style={{ color: "gray" }} />}
           </div>
+          
         </div>
         <div
           className="cart-second-div"
@@ -421,9 +439,10 @@ const Bag = () => {
               justifyContent: "space-between",
               alignItems: "center",
               marginTop: "2em",
+              fontSize:'18px'
             }}
           >
-            <p>Total Price</p>
+            <p >Total Price</p>
 
             <div className="product-description-second-div-p">
               <span>&#8358;</span>
@@ -434,10 +453,11 @@ const Bag = () => {
             <button
               style={{
                 width: "100%",
-                height: "50px",
+                height: "60px",
                 backgroundColor: "#FC2C9C",
                 color: "white",
                 border: "none",
+                fontSize:'16px'
               }}
               onClick={() => navigate("/checkout")}
             >

@@ -15,28 +15,21 @@ function Navbar() {
     navRef.current.classList.toggle("responsive_nav");
   };
 
-
-
-
   return (
     <header
-    className="header-header"
+      className="header-header"
       style={{
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-between",
-margin:'0em'
-      
+        margin: "0em",
       }}
-      
-
     >
       <div
         className="take-for-header"
         style={{
           display: "flex",
           justifyContent: "space-between",
-            
         }}
       >
         <div>
@@ -45,7 +38,7 @@ margin:'0em'
               style={{
                 fontSize: "0.8em",
                 marginTop: "0.4em",
-                marginLeft:'-0.32em'
+                marginLeft: "-0.32em",
               }}
             />
           </button>
@@ -65,6 +58,7 @@ margin:'0em'
               alignItems: "flex-start",
               textAlign: "center",
               height: "100%",
+              zIndex:'999'
             }}
           >
             <button
@@ -97,9 +91,8 @@ margin:'0em'
                 }}
               >
                 <div
-                className="nav-three-icons-show"
+                  className="nav-three-icons-show"
                   style={{
-                    
                     display: "flex",
                     flexDirection: "column",
                     color: " #fff",
@@ -119,7 +112,7 @@ margin:'0em'
                   <p>Login</p>
                 </div>
                 <div
-                className="nav-three-icons-show"
+                  className="nav-three-icons-show"
                   style={{
                     display: "flex",
                     width: "100%",
@@ -195,7 +188,7 @@ margin:'0em'
             overflow: "auto",
             whiteSpace: "nowrap",
             scrollbarWidth: "0",
-          
+
             scrollbarColor: "transparent transparent",
           }}
         >

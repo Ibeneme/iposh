@@ -15,6 +15,10 @@
     margin-bottom: 120px;
 }
 
+.z{
+    z-index: 1;
+}
+
 @media(max-width:1000px){
     .auth-div-first{
         width:100vw;
@@ -42,8 +46,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-top: 170px;
-        padding-bottom: 100px;
+        padding-top: -80px;
+        padding-bottom: 60px;
     }
     .auth-div {
         padding:1em;
@@ -53,5 +57,7 @@
       
       }
       
-    
+      .z{
+        z-index: 0;
+    }
 }

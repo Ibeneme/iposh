@@ -11,15 +11,15 @@ const Verify = () => {
         <h3
           style={{
             textAlign: "center",
+            fontSize:'24px'
           }}
         >
           Verify your account
         </h3>
         <p
           style={{
-            zIndex:'1',
             textAlign: "center",
-            fontSize: "14px",
+            fontSize: "16px",
             color: "gray",
             marginTop: "0.3em",
           }}
@@ -31,6 +31,7 @@ const Verify = () => {
           style={{
             display: "flex",
             flexDirection: "column",
+            fontSize:'18px'
           }}
         >
           <label
@@ -52,8 +53,9 @@ const Verify = () => {
               placeholder="Enter yourOTP"
               style={{
                 paddingLeft: "32px",
-                height: "50px",
+                height: "60px",
                 width: "100%",
+                fontSize:'16px'
               }}
             />
             <RiLockPasswordLine
@@ -72,9 +74,9 @@ const Verify = () => {
           <p
             style={{
               textAlign: "end",
-              fontSize: "14px",
               color: "gray",
               marginTop: "0.3em",
+              fontSize:'16px'
             }}
             onClick={() => navigate("/verify")}
           >
@@ -91,12 +93,13 @@ const Verify = () => {
         </div>
         <button
           style={{
-            height: "50px",
+            height: "60px",
             backgroundColor: "#FC2C9C",
             width: "100%",
             border: "none",
             color: "white",
             marginTop: "2.3em",
+            fontSize:'16px'
           }}
           onClick={() => navigate("/")}
         >

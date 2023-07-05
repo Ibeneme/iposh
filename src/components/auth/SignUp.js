@@ -1,51 +1,65 @@
-import React, {useState} from "react";
-import { RiMailLine, RiLockPasswordLine, RiEyeLine, RiEyeCloseLine  } from "react-icons/ri";
+import React, { useState } from "react";
+import {
+  RiMailLine,
+  RiLockPasswordLine,
+  RiEyeLine,
+  RiEyeCloseLine,
+} from "react-icons/ri";
 import "./auth.css";
-import {useNavigate} from 'react-router-dom'
+import { useNavigate } from "react-router-dom";
 
 const SignUp = () => {
-    const navigate = useNavigate()
-    const [showPassword, setShowPassword] = useState(false);
+  const navigate = useNavigate();
+  const [showPassword, setShowPassword] = useState(false);
 
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
   };
   return (
-    <div 
-    style={{
-        pointerEvents:'initial'
-    }}
-    className="auth-div-first">
+    <div
+      style={{
+        pointerEvents: "initial",
+      }}
+      className="auth-div-first"
+    >
       <div className="auth-div">
         <h3
           style={{
             textAlign: "center",
-            fontSize:"18px",
+            fontSize: "24px",
           }}
         >
           Create an Account
         </h3>
         <div
           style={{
-            zIndex:'1',
-            textAlign: "center",
-            fontSize:"14px",
-            color:'gray',
-            marginTop:'0.3em',
-            cursor:'pointer',
 
-          }}onClick={()=>navigate('/signin')}
+            textAlign: "center",
+            fontSize: "16px",
+            color: "gray",
+            marginTop: "0.3em",
+            cursor: "pointer",
+          }}
+          className="z"
+          onClick={() => navigate("/signin")}
         >
-         Already have an account? <span  style={{
+          Already have an account?{" "}
+          <span
+            style={{
               color: "#FC2C9C",
-          }}>Login</span>
+            }}
+          >
+            Login
+          </span>
         </div>
         <div
           style={{
             display: "flex",
             flexDirection: "column",
-            zIndex:'1'
+          
+            fontSize:'18px'
           }}
+          className="z"
         >
           <label
             style={{
@@ -66,13 +80,14 @@ const SignUp = () => {
               placeholder="Enter your Email Address"
               style={{
                 paddingLeft: "32px",
-                height: "50px",
+                height: "60px",
                 width: "100%",
+                fontSize:'16px'
               }}
             />
             <RiMailLine
               style={{
-                color:'gray',
+                color: "gray",
                 position: "absolute",
                 top: "50%",
                 transform: "translateY(-50%)",
@@ -83,112 +98,126 @@ const SignUp = () => {
           </div>
         </div>
         <div style={{ display: "flex", flexDirection: "column" }}>
-      <label style={{ marginTop: "1.3em" }}>Password</label>
-      <div style={{ position: "relative", display: "inline-block", marginTop: "0.3em" }}>
-        <input
-          type={showPassword ? "text" : "password"}
-          placeholder="Enter your Password"
-          style={{
-            paddingLeft: "32px",
-            height: "50px",
-            width: "100%",
-          }}
-        />
-        <RiLockPasswordLine
-          style={{
-            position: "absolute",
-            top: "50%",
-            transform: "translateY(-50%)",
-            left: "8px",
-            fontSize: "20px",
-          }}
-        />
-        {showPassword ? (
-          <RiEyeCloseLine
+          <label style={{ marginTop: "1.3em" }}>Password</label>
+          <div
             style={{
-              position: "absolute",
-              top: "50%",
-              transform: "translateY(-50%)",
-              right: "8px",
-              fontSize: "20px",
-              cursor: "pointer",
+              position: "relative",
+              display: "inline-block",
+              marginTop: "0.3em",
             }}
-            onClick={togglePasswordVisibility}
-          />
-        ) : (
-          <RiEyeLine
+          >
+            <input
+              type={showPassword ? "text" : "password"}
+              placeholder="Enter your Password"
+              style={{
+                paddingLeft: "32px",
+                height: "60px",
+                width: "100%",
+                fontSize:'16px'
+              }}
+            />
+            <RiLockPasswordLine
+              style={{
+                position: "absolute",
+                top: "50%",
+                transform: "translateY(-50%)",
+                left: "8px",
+                fontSize: "20px",
+              }}
+            />
+            {showPassword ? (
+              <RiEyeCloseLine
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  transform: "translateY(-50%)",
+                  right: "8px",
+                  fontSize: "20px",
+                  cursor: "pointer",
+                }}
+                onClick={togglePasswordVisibility}
+              />
+            ) : (
+              <RiEyeLine
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  transform: "translateY(-50%)",
+                  right: "8px",
+                  fontSize: "20px",
+                  cursor: "pointer",
+                }}
+                onClick={togglePasswordVisibility}
+              />
+            )}
+          </div>
+        </div>
+        <div style={{ display: "flex", flexDirection: "column" }}>
+          <label style={{ marginTop: "1.3em" }}>Password</label>
+          <div
             style={{
-              position: "absolute",
-              top: "50%",
-              transform: "translateY(-50%)",
-              right: "8px",
-              fontSize: "20px",
-              cursor: "pointer",
+              position: "relative",
+              display: "inline-block",
+              marginTop: "0.3em",
             }}
-            onClick={togglePasswordVisibility}
-          />
-        )}
-      </div>
-    </div>
-    <div style={{ display: "flex", flexDirection: "column" }}>
-      <label style={{ marginTop: "1.3em" }}>Password</label>
-      <div style={{ position: "relative", display: "inline-block", marginTop: "0.3em" }}>
-        <input
-          type={showPassword ? "text" : "password"}
-          placeholder="Enter your Password"
-          style={{
-            paddingLeft: "32px",
-            height: "50px",
-            width: "100%",
-          }}
-        />
-        <RiLockPasswordLine
-          style={{
-            position: "absolute",
-            top: "50%",
-            transform: "translateY(-50%)",
-            left: "8px",
-            fontSize: "20px",
-          }}
-        />
-        {showPassword ? (
-          <RiEyeCloseLine
-            style={{
-              position: "absolute",
-              top: "50%",
-              transform: "translateY(-50%)",
-              right: "8px",
-              fontSize: "20px",
-              cursor: "pointer",
-            }}
-            onClick={togglePasswordVisibility}
-          />
-        ) : (
-          <RiEyeLine
-            style={{
-              position: "absolute",
-              top: "50%",
-              transform: "translateY(-50%)",
-              right: "8px",
-              fontSize: "20px",
-              cursor: "pointer",
-            }}
-            onClick={togglePasswordVisibility}
-          />
-        )}
-      </div>
-    </div>
+          >
+            <input
+              type={showPassword ? "text" : "password"}
+              placeholder="Enter your Password"
+              style={{
+                paddingLeft: "32px",
+                height: "60px",
+                width: "100%",
+                fontSize:'16px'
+              }}
+            />
+            <RiLockPasswordLine
+              style={{
+                position: "absolute",
+                top: "50%",
+                transform: "translateY(-50%)",
+                left: "8px",
+                fontSize: "20px",
+              }}
+            />
+            {showPassword ? (
+              <RiEyeCloseLine
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  transform: "translateY(-50%)",
+                  right: "8px",
+                  fontSize: "20px",
+                  cursor: "pointer",
+                }}
+                onClick={togglePasswordVisibility}
+              />
+            ) : (
+              <RiEyeLine
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  transform: "translateY(-50%)",
+                  right: "8px",
+                  fontSize: "20px",
+                  cursor: "pointer",
+                }}
+                onClick={togglePasswordVisibility}
+              />
+            )}
+          </div>
+        </div>
         <button
           style={{
-            height: "50px",
+            height: "60px",
             backgroundColor: "#FC2C9C",
             width: "100%",
             border: "none",
             color: "white",
             marginTop: "2.3em",
-      
+            fontSize: "16px",
           }}
-          onClick={()=>navigate('/verify')}
+          onClick={() => navigate("/verify")}
         >
           Submit
         </button>
