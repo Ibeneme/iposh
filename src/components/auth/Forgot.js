@@ -2,6 +2,7 @@ import React from "react";
 import { RiMailLine } from "react-icons/ri";
 import "./auth.css";
 import {useNavigate} from 'react-router-dom'
+import BottomTab from "../navbar-and-footer/BottomTab";
 
 
 const Forgot = () => {
@@ -92,6 +93,7 @@ const Forgot = () => {
           Submit
         </button>
       </div>
+      <BottomTab />
     </div>
   );
 };

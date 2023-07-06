@@ -2,6 +2,7 @@ import React from "react";
 import { RiLockPasswordLine } from "react-icons/ri";
 import "./auth.css";
 import { useNavigate } from "react-router-dom";
+import BottomTab from "../navbar-and-footer/BottomTab";
 
 const Verify = () => {
   const navigate = useNavigate();
@@ -106,6 +107,7 @@ const Verify = () => {
           Submit
         </button>
       </div>
+      <BottomTab />
     </div>
   );
 };

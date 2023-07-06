@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../navbar-and-footer/Navbar";
 import Search from "../MobileView/Search";
-
 import productsData from "../TestingData/Data";
 import image from "../MobileView/images/ewien-van-bergeijk-kwant-Pi2o-Q6ZQjE-unsplash 2.png";
 import BottomTab from "../navbar-and-footer/BottomTab";
@@ -38,8 +37,11 @@ const ProductsHome = () => {
             }}
           >
             {productsData.map((product) => (
-              <div key={product.id} style={{ position: "relative" }}
-              onClick={()=>navigate('/category')}>
+              <div
+                key={product.id}
+                style={{ position: "relative" }}
+                onClick={() => navigate("/category")}
+              >
                 <img
                   className="image-wigs"
                   src={product.image}
@@ -113,7 +115,7 @@ const ProductsHome = () => {
                   borderRadius: "6px",
                   marginTop: "1em",
                   marginBottom: "2em",
-                  color:'black'
+                  color: "black",
                 }}
               >
                 Add to Cart
@@ -140,8 +142,8 @@ const ProductsHome = () => {
             <button
               style={{
                 width: "fit-content",
-                height:'50px',
-                padding:' 0 2em',
+                height: "50px",
+                padding: " 0 2em",
                 marginTop: "1em",
                 backgroundColor: "#FC2C9C",
                 borderRadius: "6px",

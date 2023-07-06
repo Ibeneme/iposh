@@ -26,6 +26,7 @@ const BottomTab = () => {
         <HiHome className="bottomtab-icon" />
         <p className="bottomtab-text">Home</p>
       </NavLink>
+
       <NavLink
         to="/saved"
         className="bottomtab-link"
@@ -46,10 +47,10 @@ const BottomTab = () => {
       </NavLink>
     
       <NavLink
-        to="/profile"
+        to="/signin"
         className="bottomtab-link"
         activeClassName="active"
-        onClick={() => handleTabClick("/profile")}
+        onClick={() => handleTabClick("/signin")}
       >
         <BiSolidUser className="bottomtab-icon" />
         <p className="bottomtab-text">Profile</p>

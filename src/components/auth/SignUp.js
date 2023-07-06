@@ -7,6 +7,7 @@ import {
 } from "react-icons/ri";
 import "./auth.css";
 import { useNavigate } from "react-router-dom";
+import BottomTab from "../navbar-and-footer/BottomTab";
 
 const SignUp = () => {
   const navigate = useNavigate();
@@ -222,6 +223,7 @@ const SignUp = () => {
           Submit
         </button>
       </div>
+      <BottomTab />
     </div>
   );
 };
