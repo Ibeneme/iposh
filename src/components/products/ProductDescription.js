@@ -186,7 +186,10 @@ const ProductDescription = () => {
                   </div>
                 </div>
                 <div className="product-description-div-btn">
-                  <button className="product-description-div-btn-btn">
+                  <button
+                    onClick={() => navigate("/checkout")}
+                    className="product-description-div-btn-btn"
+                  >
                     Buy Now
                   </button>
                   <button className="product-description-div-btn-btn-white">
@@ -235,10 +238,12 @@ const ProductDescription = () => {
             </div>
           </div>
 
-          <div style={{
-            padding:'4em 1em'
-          }}
-          className="big-div">
+          <div
+            style={{
+              padding: "4em 1em",
+            }}
+            className="big-div"
+          >
             <div>
               <h1>4.6</h1>
               <p>All reviews come from verified purchasers</p>
@@ -275,8 +280,8 @@ const ProductDescription = () => {
               style={{
                 display: "flex",
                 flexDirection: "column",
-                gap:'0.5em',
-                padding:'2em 0'
+                gap: "0.5em",
+                padding: "2em 0",
               }}
             >
               <h4>Stars</h4>
