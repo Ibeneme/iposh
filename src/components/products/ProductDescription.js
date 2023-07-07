@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import Data from "../TestingData/ProductData";
 import "./ProductDescription/Description.css";
 import { BiMinus } from "react-icons/bi";
-import { MdAdd } from "react-icons/md";
+import { MdAdd, MdStarRate, MdStarHalf } from "react-icons/md";
 import Navbar from "../navbar-and-footer/Navbar";
 import BottomTab from "../navbar-and-footer/BottomTab";
 
@@ -232,6 +232,114 @@ const ProductDescription = () => {
                   </button>
                 </div>
               ))}
+            </div>
+          </div>
+
+          <div style={{
+            padding:'4em 1em'
+          }}
+          className="big-div">
+            <div>
+              <h1>4.6</h1>
+              <p>All reviews come from verified purchasers</p>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "baseline",
+                  color: "orange",
+                  fontSize: "24px",
+                }}
+              >
+                <span
+                  style={{
+                    display: "flex",
+                    alignItems: "end",
+                  }}
+                >
+                  <MdStarRate /> <MdStarRate /> <MdStarRate /> <MdStarRate />{" "}
+                </span>
+                <span
+                  style={{
+                    paddingTop: "0.4em",
+                  }}
+                >
+                  <MdStarHalf
+                    style={{
+                      paddingTop: "0.1em",
+                    }}
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap:'0.5em',
+                padding:'2em 0'
+              }}
+            >
+              <h4>Stars</h4>
+              <span
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "2em",
+                }}
+              >
+                <p>5</p>
+                <span className="span-reviews">
+                  <span className="span-reviews-two"></span>
+                </span>
+              </span>
+              <span
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "2em",
+                }}
+              >
+                <p>4</p>
+                <span className="span-reviews">
+                  <span className="span-reviews-two"></span>
+                </span>
+              </span>
+              <span
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "2em",
+                }}
+              >
+                <p>3</p>
+                <span className="span-reviews">
+                  <span className="span-reviews-two"></span>
+                </span>
+              </span>
+              <span
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "2em",
+                }}
+              >
+                <p>2</p>
+                <span className="span-reviews">
+                  <span className="span-reviews-two"></span>
+                </span>
+              </span>
+              <span
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "2em",
+                }}
+              >
+                <p>1</p>
+                <span className="span-reviews">
+                  <span className="span-reviews-two"></span>
+                </span>
+              </span>
             </div>
           </div>
         </div>

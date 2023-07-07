@@ -67,6 +67,32 @@
   display: flex;
   justify-content: center;
 }
+.span-reviews {
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  height: 10px;
+  width: 90%;
+  background-color:#66666645;
+  border-radius: 45px;
+ 
+}
+
+.span-reviews-two {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 45px;
+}
+
+.span-reviews-two:first-child {
+  width: 80%;
+  background-color: orange;
+  border-radius: 45px;
+}
+
+
 @media (max-width: 1478px) {
   .width-product-description {
     width: 80vw;
