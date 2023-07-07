@@ -56,6 +56,7 @@ const Verify = () => {
                 paddingLeft: "32px",
                 height: "60px",
                 width: "100%",
+                border:'1px solid black',
                 fontSize:'16px'
               }}
             />
@@ -85,6 +86,7 @@ const Verify = () => {
             <span
               style={{
                 color: "#FC2C9C",
+                cursor:'pointer',
               }}
             >
               {" "}

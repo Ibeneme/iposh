@@ -6,6 +6,7 @@ import image from "../MobileView/images/ewien-van-bergeijk-kwant-Pi2o-Q6ZQjE-uns
 import BottomTab from "../navbar-and-footer/BottomTab";
 import { useNavigate } from "react-router-dom";
 import Data from "../TestingData/ProductData";
+import "./ProductDescription/Description.css";
 
 const ProductsHome = () => {
   const navigate = useNavigate();
@@ -16,7 +17,7 @@ const ProductsHome = () => {
         <Search />
       </div>
       <div>
-        <div>
+        <div className="big-div-categ">
           <h2
             style={{
               marginTop: "2em",
@@ -83,11 +84,7 @@ const ProductsHome = () => {
         </div>
       </div>
 
-      <div
-        style={{
-          marginTop: "3em",
-        }}
-      >
+      <div className="big-div">
         <h2
           style={{
             textAlign: "center",

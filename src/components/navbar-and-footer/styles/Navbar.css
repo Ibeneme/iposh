@@ -37,13 +37,14 @@ header {
   z-index: 1;
   width: 100%;
   pointer-events:painted;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .take-for-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 60px;
+  height: 80px;
   gap: 2.5em;
   background-color: white;
   color: #000000;
@@ -85,6 +86,10 @@ nav {
   align-items: center;
 }
 
+.thisss{
+
+}
+
 /* these sections are for our nav bar sign up buttons on display none and block */
 .div-navbar-signup-button {
   display: none;
@@ -114,7 +119,7 @@ nav {
 }
 
 .nav-three-icons-show {
-  visibility: hidden;
+  display: none;
 }
 
 .image-wigs {
@@ -125,7 +130,8 @@ nav {
   display: grid;
   gap: 1em;
   padding: 1em;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(4, minmax(50px, 1fr));
+
 }
 .container {
   position: relative;
@@ -216,7 +222,9 @@ nav {
     opacity: 1;
     color: #000;
   }
-
+  .nav-three-icons-show {
+    display: flex;
+  }
   .header-header {
     height: 80px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

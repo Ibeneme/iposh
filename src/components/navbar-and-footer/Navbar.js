@@ -43,7 +43,7 @@ function Navbar() {
             />
           </button>
           <div className="nav-three-icons" onClick={() => navigate("/")}>
-            <h3 className="h3-for-navbar">iPosh</h3>
+            <h1 className="h3-for-navbar">iPosh</h1>
           </div>
         </div>
 
@@ -91,9 +91,9 @@ function Navbar() {
                 }}
               >
                 <div
-                  className="nav-three-icons-show"
+                  className="nav-three-icons-show thisss"
                   style={{
-                    display: "flex",
+           
                     flexDirection: "column",
                     color: " #fff",
                     fontSize: "1.2em",
@@ -114,7 +114,7 @@ function Navbar() {
                 <div
                   className="nav-three-icons-show"
                   style={{
-                    display: "flex",
+      
                     width: "100%",
                     fontSize: "1.53em",
                     justifyContent: "space-between",
@@ -166,7 +166,7 @@ function Navbar() {
           </div>
         </div>
       </div>
-
+ 
       <div
         style={{
           display: "flex",
@@ -176,7 +176,7 @@ function Navbar() {
         <div
           className="nav-three-icons"
           style={{
-            width: "90%",
+            width: "100%",
             backgroundColor: "black",
             color: "white",
             marginTop: "-1.3em",

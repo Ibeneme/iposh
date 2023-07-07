@@ -41,7 +41,7 @@ const SignUp = () => {
             marginTop: "0.3em",
             cursor: "pointer",
           }}
-          className="z"
+        
           onClick={() => navigate("/signin")}
         >
           Already have an account?{" "}
@@ -60,7 +60,7 @@ const SignUp = () => {
           
             fontSize:'18px'
           }}
-          className="z"
+        
         >
           <label
             style={{
@@ -83,7 +83,8 @@ const SignUp = () => {
                 paddingLeft: "32px",
                 height: "60px",
                 width: "100%",
-                fontSize:'16px'
+                fontSize:'16px',
+                border:'1px solid black'
               }}
             />
             <RiMailLine
@@ -113,6 +114,7 @@ const SignUp = () => {
               style={{
                 paddingLeft: "32px",
                 height: "60px",
+                border:'1px solid black',
                 width: "100%",
                 fontSize:'16px'
               }}
@@ -169,6 +171,7 @@ const SignUp = () => {
                 paddingLeft: "32px",
                 height: "60px",
                 width: "100%",
+                border:'1px solid black',
                 fontSize:'16px'
               }}
             />

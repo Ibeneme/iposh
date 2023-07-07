@@ -1,4 +1,4 @@
-import React ,{useState} from "react";
+import React, { useState } from "react";
 import {
   RiMailLine,
   RiLockPasswordLine,
@@ -8,7 +8,6 @@ import {
 import "./auth.css";
 import { useNavigate } from "react-router-dom";
 import BottomTab from "../navbar-and-footer/BottomTab";
-
 
 const SignIn = () => {
   const navigate = useNavigate();
@@ -20,7 +19,6 @@ const SignIn = () => {
 
   return (
     <div className="auth-div-first">
-
       <div className="auth-div">
         <h3
           style={{
@@ -35,14 +33,14 @@ const SignIn = () => {
             textAlign: "center",
             color: "gray",
             marginTop: "0.3em",
-            fontSize:'18px'
+            fontSize: "18px",
           }}
-          className="z"
         >
           Don't have an account?{" "}
           <span
             style={{
               color: "#FC2C9C",
+              cursor: "pointer",
             }}
             onClick={() => navigate("/signup")}
           >
@@ -53,9 +51,8 @@ const SignIn = () => {
           style={{
             display: "flex",
             flexDirection: "column",
-            fontSize:'18px'
+            fontSize: "18px",
           }}
-          className="z"
         >
           <label
             style={{
@@ -78,7 +75,8 @@ const SignIn = () => {
                 paddingLeft: "32px",
                 height: "60px",
                 width: "100%",
-                fontSize:'16px'
+                fontSize: "16px",
+                border:'1px solid black'
               }}
             />
             <RiMailLine
@@ -93,7 +91,9 @@ const SignIn = () => {
             />
           </div>
         </div>
-        <div style={{ display: "flex", flexDirection: "column",  fontSize:'18px' }}>
+        <div
+          style={{ display: "flex", flexDirection: "column", fontSize: "18px" }}
+        >
           <label style={{ marginTop: "1.3em" }}>Password</label>
           <div
             style={{
@@ -109,7 +109,8 @@ const SignIn = () => {
                 paddingLeft: "32px",
                 height: "60px",
                 width: "100%",
-                fontSize:'16px'
+                fontSize: "16px",
+                border:'1px solid black'
               }}
             />
             <RiLockPasswordLine
@@ -154,6 +155,7 @@ const SignIn = () => {
             marginTop: "0.3em",
             fontSize: "14px",
             color: "gray",
+            cursor: "pointer",
           }}
           onClick={() => navigate("/forgot")}
         >
@@ -167,7 +169,7 @@ const SignIn = () => {
             border: "none",
             color: "white",
             marginTop: "2.3em",
-            fontSize:'16px'
+            fontSize: "16px",
           }}
           onClick={() => navigate("/verify")}
         >

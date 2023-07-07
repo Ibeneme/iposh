@@ -34,7 +34,9 @@ const ProductDescription = () => {
   return (
     <div>
       <Navbar />
-      <div className="product-description-first-div">
+   <div className="center-div-width">
+   <div  className="width-product-description">
+    <div className="product-description-first-div">
         <div>
           <div
             style={{
@@ -126,7 +128,7 @@ const ProductDescription = () => {
           </div>
 
           <div style={{ marginTop: "2em" }}>
-            Sizes:
+            Lengths:
             <div style={{ display: "flex" }}>
               {sizes.map((size) => (
                 <div
@@ -184,6 +186,8 @@ const ProductDescription = () => {
         </div>
       </div>
 
+    </div>
+   </div>
       <BottomTab />
     </div>
   );
