@@ -205,10 +205,8 @@ function Navbar() {
           <p className="bouncy-hairs">Bouncy Hairs</p>
           <p className="bouncy-hairs">Wavy Hairs</p>
           <p className="bouncy-hairs">Curly Hairs</p>
-          <p className="bouncy-hairs">Sales</p>
           <p className="bouncy-hairs">Frontal</p>
           <p className="bouncy-hairs">Wigs</p>
-          <p className="bouncy-hairs">Sales</p>
           <p className="bouncy-hairs">Closure</p>
           <p className="bouncy-hairs">Straight Hairs</p>
         </div>
