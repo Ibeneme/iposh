@@ -58,7 +58,7 @@ function Navbar() {
               alignItems: "flex-start",
               textAlign: "center",
               height: "100%",
-              zIndex:'999'
+              zIndex: "999",
             }}
           >
             <button
@@ -93,7 +93,6 @@ function Navbar() {
                 <div
                   className="nav-three-icons-show thisss"
                   style={{
-           
                     flexDirection: "column",
                     color: " #fff",
                     fontSize: "1.2em",
@@ -114,7 +113,6 @@ function Navbar() {
                 <div
                   className="nav-three-icons-show"
                   style={{
-      
                     width: "100%",
                     fontSize: "1.53em",
                     justifyContent: "space-between",
@@ -134,8 +132,8 @@ function Navbar() {
                     border: "none",
                     borderRadius: "637px",
                     color: "#000",
-                    height:'60px',
-                    fontSize:'16px',
+                    height: "60px",
+                    fontSize: "16px",
                   }}
                 >
                   {" "}
@@ -166,7 +164,7 @@ function Navbar() {
           </div>
         </div>
       </div>
- 
+
       <div
         style={{
           display: "flex",
@@ -208,11 +206,11 @@ function Navbar() {
           <p className="bouncy-hairs">Wavy Hairs</p>
           <p className="bouncy-hairs">Curly Hairs</p>
           <p className="bouncy-hairs">Sales</p>
-          <p className="bouncy-hairs">Closure or Frontal</p>
+          <p className="bouncy-hairs">Frontal</p>
           <p className="bouncy-hairs">Wigs</p>
           <p className="bouncy-hairs">Sales</p>
-          <p className="bouncy-hairs">Closure or Frontal</p>
-          <p className="bouncy-hairs">Wigs</p>
+          <p className="bouncy-hairs">Closure</p>
+          <p className="bouncy-hairs">Straight Hairs</p>
         </div>
       </div>
     </header>
