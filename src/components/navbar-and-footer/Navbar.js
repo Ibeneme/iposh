@@ -58,7 +58,7 @@ function Navbar() {
               alignItems: "flex-start",
               textAlign: "center",
               height: "100%",
-              zIndex: "999",
+              zIndex: "8",
             }}
           >
             <button

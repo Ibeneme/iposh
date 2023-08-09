@@ -75,7 +75,7 @@ const Bag = () => {
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
-                  zIndex: "99999",
+                  zIndex: "8",
                   padding:'16px'
                 }}
               >

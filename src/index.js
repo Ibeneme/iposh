@@ -4,12 +4,46 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
+import { Provider } from "react-redux";
+import { configureStore } from "@reduxjs/toolkit";
+import authReducer, { setUser } from '../src/Redux/auth/SignUp'
+import productsReducer from '../src/Redux/Products/Products'
+
+
+const saveStateMiddleware = (store) => (next) => (action) => {
+  const result = next(action);
+  const state = JSON.stringify(store.getState());
+  localStorage.setItem("reduxState", state);
+  return result;
+};
+
+const store = configureStore({
+  reducer: {
+    auth: authReducer,
+    products: productsReducer
+  },
+
+  middleware: (getDefaultMiddleware) => {
+    return getDefaultMiddleware().concat(saveStateMiddleware);
+  },
+});
+
+const savedToken = localStorage.getItem('token');
+const savedUser = JSON.parse(localStorage.getItem('user'));
+if (savedToken && savedUser) {
+  store.dispatch(setUser({ token: savedToken, user: savedUser }));
+}
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <React.StrictMode>
-      <App />
+      <Provider store={store}>
+        <App />
+      </Provider>
     </React.StrictMode>
   </BrowserRouter>
 );

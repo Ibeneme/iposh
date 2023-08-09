@@ -1,4 +1,4 @@
-import React from "react";
+import React , {useEffect} from "react";
 import Navbar from "../navbar-and-footer/Navbar";
 import Search from "../MobileView/Search";
 import productsData from "../TestingData/Data";
@@ -7,9 +7,18 @@ import BottomTab from "../navbar-and-footer/BottomTab";
 import { useNavigate } from "react-router-dom";
 import Data from "../TestingData/ProductData";
 import "./ProductDescription/Description.css";
-
+import { useDispatch, useSelector } from 'react-redux';
+import { getAllProducts, getAllCategories } from "../../Redux/Products/Products";
 const ProductsHome = () => {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
+
+  const products = useSelector((state) => state.products);
+  useEffect(() => {
+    dispatch(getAllCategories());
+  }, [dispatch ]);
+  console.log(products, "ss");
+
   return (
     <div>
       <Navbar />

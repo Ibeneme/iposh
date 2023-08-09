@@ -1,43 +1,43 @@
 import React, { useState } from "react";
 import {
-  RiMailLine,
   RiLockPasswordLine,
   RiEyeLine,
   RiEyeCloseLine,
 } from "react-icons/ri";
 import "./auth.css";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import BottomTab from "../navbar-and-footer/BottomTab";
-import { signinUser } from "../../Redux/auth/SignUp";
+import { createPassword } from "../../Redux/auth/SignUp";
 import { useDispatch } from "react-redux";
 
-const SignIn = () => {
+const CreatePassword = () => {
   const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
-  const [email, setEmail] = useState("");
-  const [error, setError] = useState("");
   const [errorPassword, setErrorPassword] = useState("");
-  const [errorNetwork, setErrorNetwork] = useState("");
-  const [password, setPassword] = useState("");
+  const [newPassword, setPassword] = useState("");
   const dispatch = useDispatch();
+  const [errorNetwork, setErrorNetwork] = useState("");
+  const location = useLocation();
+  const queryParams = new URLSearchParams(location.search);
+  const email = queryParams.get("email");
+
+
 
   const handleSignIn = async () => {
     try {
-      const response = await dispatch(signinUser({ email, password }));
+      const response = await dispatch(createPassword({ email, newPassword }));
       console.log("Signup response:", response);
       if (response.payload.error === "User with this email does not exist") {
-        setError("User with this email does not exist");
       } else if (response.payload.status === "failed") {
-        setErrorPassword("Enter a Password");
-      } else if (response.payload.error === "Missing email or password") {
-        setError("Email is required");
+        setErrorPassword("Network Error");
+      } else if (response.payload.error === "Missing email or password") { 
         setErrorPassword("Password is required");
       } else if (response.payload === "No response from the server") {
         setErrorNetwork("Please Check your Network");
       } else if (response.payload.error === "Incorrect password") {
         setErrorPassword("Incorrect password");
-      } else if (response.payload.message === "Successfull authentication") {
-        navigate("/");
+      } else if (response.payload.message === "Password successfully changed") {
+        navigate("/signin");
       } else {
         setErrorNetwork("Unknown Error Occured");
       }
@@ -47,13 +47,12 @@ const SignIn = () => {
     }
   };
 
-  const handleEmailChange = (e) => {
-    setEmail(e.target.value);
-    setError("");
-  };
+
+
   const handlePasswordChange = (e) => {
     setPassword(e.target.value);
     setErrorPassword("");
+    console.log(newPassword, "newPassword");
   };
 
   const togglePasswordVisibility = () => {
@@ -69,7 +68,7 @@ const SignIn = () => {
             fontSize: "24px",
           }}
         >
-          Login to IPosh
+          Create a New Password
         </h3>
         <p
           style={{
@@ -90,76 +89,19 @@ const SignIn = () => {
             Create an Account
           </span>
         </p>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            fontSize: "18px",
-          }}
-        >
-          {errorNetwork ? (
-            <p
-              style={{
-                backgroundColor: "#ff000021",
-                color: "red",
-                marginTop: "1.3em",
-                marginBottom: "-1.3em",
-                padding: "12px 16px",
-              }}
-            >
-              {errorNetwork}
-            </p>
-          ) : null}
-          <label
-            style={{
-              marginTop: "2.3em",
-            }}
-          >
-            Email Address
-          </label>
-          <div
-            style={{
-              position: "relative",
-              display: "inline-block",
-              marginTop: "0.3em",
-            }}
-          >
-            <input
-              type="email"
-              required
-              placeholder="Enter your Email Address"
-              style={{
-                paddingLeft: "32px",
-                height: "60px",
-                width: "100%",
-                fontSize: "16px",
-                color: `${error ? "red" : "black"}`,
-                border: `1px solid ${error ? "red" : "black"}`,
-              }}
-              value={email}
-              onChange={handleEmailChange}
-            />
-            <RiMailLine
-              style={{
-                color: "gray",
-                position: "absolute",
-                top: "50%",
-                transform: "translateY(-50%)",
-                left: "8px",
-                fontSize: "20px",
-              }}
-            />
-          </div>
+        {errorNetwork ? (
           <p
             style={{
+              backgroundColor: "#ff000021",
               color: "red",
-              fontSize: "16px",
-              marginTop: "4px",
+              marginTop: "1.3em",
+              marginBottom: "-1.3em",
+              padding: "12px 16px",
             }}
           >
-            {error}
+            {errorNetwork}
           </p>
-        </div>
+        ) : null}
         <div
           style={{ display: "flex", flexDirection: "column", fontSize: "18px" }}
         >
@@ -182,7 +124,7 @@ const SignIn = () => {
                 fontSize: "16px",
                 color: `${errorPassword ? "red" : "black"}`,
               }}
-              value={password}
+              value={newPassword}
               onChange={handlePasswordChange}
             />
             <RiLockPasswordLine
@@ -230,18 +172,7 @@ const SignIn = () => {
             {errorPassword}
           </p>
         </div>
-        <p
-          style={{
-            textAlign: "end",
-            marginTop: "0.3em",
-            fontSize: "14px",
-            color: "gray",
-            cursor: "pointer",
-          }}
-          onClick={() => navigate("/forgot")}
-        >
-          Forgot Password?
-        </p>
+
         <button
           style={{
             height: "60px",
@@ -262,4 +193,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn;
+export default CreatePassword;

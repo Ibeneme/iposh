@@ -17,6 +17,8 @@ import Forgot from "./components/auth/Forgot";
 import ProfileEdit from "./components/Profile/edit";
 import Category from "./components/products/Category";
 import Navbar from "./components/navbar-and-footer/Navbar";
+import PasswordReset from "./components/auth/PasswordReset";
+import CreatePassword from "./components/auth/CreatePassword";
 
 const ScrollToTop = () => {
   const navigate = useNavigate();
@@ -50,6 +52,8 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/verify" element={<Verify />} />
         <Route path="/forgot" element={<Forgot />} />
+        <Route path="/createpassword" element={<CreatePassword />} />
+        <Route path="/passwordreset" element={<PasswordReset />} />
         <Route path="/category" element={<Category />} />
       </Routes>
       <Footer />

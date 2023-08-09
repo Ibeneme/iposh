@@ -8,7 +8,7 @@ import { resendOTP } from "../../Redux/auth/SignUp";
 import { useDispatch } from "react-redux";
 import icon from "./icon/Happy man walks with shopping bags.png";
 
-const Verify = () => {
+const PassowrdReset = () => {
   const dispatch = useDispatch();
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
@@ -23,15 +23,14 @@ const Verify = () => {
       const response = await dispatch(verifyEmail({ email, otp }));
       console.log(response, "veevev");
       if (response.payload.message === "Email successfully verified") {
-        setIsModalOpen(true)
+        navigate(`/createpassword?email=${email}`)
       } else if (response.payload.error === "Invalid verification code") {
         setVerificationError("OTP not Correct");
       } else if (response.payload.error === "Missing email or otp") {
-        setVerificationError("Provide an OTP");
+        setVerificationError("Provide an Valid OTP");
       } else if (response.payload === "No response from the server.") {
         setVerificationError("No response from the server.");
       }
-
     } catch (error) {
       setVerificationError(error.message);
     }
@@ -220,4 +219,4 @@ const Verify = () => {
   );
 };
 
-export default Verify;
+export default PassowrdReset;
